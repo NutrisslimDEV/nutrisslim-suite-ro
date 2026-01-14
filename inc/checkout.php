@@ -122,11 +122,18 @@ function customize_checkout_fields($fields) {
             'priority' => 60,
         );           
         $fields['billing']['billing_city'] = array(
+            'type'        => 'text',
             'label'       => __('Billing City', 'nutrisslim-suiteV2'),
             'placeholder' => __('Billing City *', 'nutrisslim-suiteV2'),
             'required'    => true,
-            'class'       => array('form-row-last'),
+            'class'       => array('form-row-last', 'city-autocomplete-field'),
             'priority' => 70,
+            'autocomplete' => 'off',
+            'custom_attributes' => array(
+                'data-city-autocomplete' => 'true',
+                'data-province-field' => 'billing_state',
+                'autocomplete' => 'off',
+            ),
         );    
     } else {
         $fields['billing']['billing_address_1'] = array(
@@ -147,11 +154,18 @@ function customize_checkout_fields($fields) {
             'clear'       => true,
         ); 
         $fields['billing']['billing_city'] = array(
+            'type'        => 'text',
             'label'       => __('Billing City', 'nutrisslim-suiteV2'),
             'placeholder' => __('Billing City *', 'nutrisslim-suiteV2'),
             'required'    => true,
-            'class'       => array('form-row-first'),
+            'class'       => array('form-row-first', 'city-autocomplete-field'),
             'priority' => 60,
+            'autocomplete' => 'off',
+            'custom_attributes' => array(
+                'data-city-autocomplete' => 'true',
+                'data-province-field' => 'billing_state',
+                'autocomplete' => 'off',
+            ),
         );    
         // Add billing zip code
         $fields['billing']['billing_postcode'] = array(
@@ -236,11 +250,18 @@ function customize_checkout_fields($fields) {
         );        
         // Add shipping city
         $fields['shipping']['shipping_city'] = array(
+            'type'        => 'text',
             'label'       => __('City', 'nutrisslim-suiteV2'),
             'placeholder' => __('City *', 'nutrisslim-suiteV2'),
             'required'    => true,
-            'class'       => array('form-row-last'),
+            'class'       => array('form-row-last', 'city-autocomplete-field'),
             'priority' => 70,
+            'autocomplete' => 'off',
+            'custom_attributes' => array(
+                'data-city-autocomplete' => 'true',
+                'data-province-field' => 'shipping_state',
+                'autocomplete' => 'off',
+            ),
         );    
     } else {
         $fields['shipping']['shipping_address_1'] = array(
@@ -262,11 +283,18 @@ function customize_checkout_fields($fields) {
         );
         // Add shipping city
         $fields['shipping']['shipping_city'] = array(
+            'type'        => 'text',
             'label'       => __('City', 'nutrisslim-suiteV2'),
             'placeholder' => __('City *', 'nutrisslim-suiteV2'),
             'required'    => true,
-            'class'       => array('form-row-first'),
+            'class'       => array('form-row-first', 'city-autocomplete-field'),
             'priority' => 60,
+            'autocomplete' => 'off',
+            'custom_attributes' => array(
+                'data-city-autocomplete' => 'true',
+                'data-province-field' => 'shipping_state',
+                'autocomplete' => 'off',
+            ),
         );    
         // Add shipping zip code
         $fields['shipping']['shipping_postcode'] = array(
