@@ -1,0 +1,851 @@
+# Copyright (C) 2024 Nenad Radoja
+# This file is distributed under the same license as the Nutrisslim Suite plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Nutrisslim Suite 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/nutrisslim-suite\n"
+"POT-Creation-Date: 2024-10-15T08:54:30+00:00\n"
+"PO-Revision-Date: 2024-10-30 12:17+0000\n"
+"Last-Translator: \n"
+"Language-Team: Dansk\n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: nutrisslim-suite\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.11; wp-6.6.2"
+
+#. Plugin Name of the plugin
+#: nutrisslim-suite.php
+msgid "Nutrisslim Suite"
+msgstr "Nutrisslim Suite"
+
+#. Description of the plugin
+#: nutrisslim-suite.php
+msgid "Basic adjustments for Nutrisslim sites"
+msgstr "Grundlæggende justeringer for Nutrisslim-steder"
+
+#. Author of the plugin
+#: nutrisslim-suite.php
+msgid "Nenad Radoja"
+msgstr "Nenad Radoja"
+
+#: assets/class-nutrisslim-landing-quantity-selector.php:250
+#: inc/shortcodes/select_quantity.php:114
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:234
+msgid "ORDER FORM"
+msgstr "BESTILLINGSFORMULAR"
+
+#: assets/class-nutrisslim-landing-quantity-selector.php:266
+#: assets/class-nutrisslim-landing-quantity-selector.php:325
+#: assets/class-nutrisslim-landing-quantity-selector.php:471
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:253
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:333
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:476
+msgid "Product Image"
+msgstr "Produktbillede"
+
+#: assets/class-nutrisslim-landing-quantity-selector.php:272
+#: inc/shortcodes/select_quantity.php:144
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:222
+msgid "Shipping costs"
+msgstr "Forsendelsesomkostninger"
+
+#: assets/class-nutrisslim-landing-quantity-selector.php:272
+msgid "Express delivery by DPD in 1-2 working days"
+msgstr "Ekspreslevering med DPD inden for 1-2 hverdage"
+
+#: assets/class-nutrisslim-landing-quantity-selector.php:276
+#: assets/class-nutrisslim-landing-quantity-selector.php:306
+#: inc/shortcodes/select_quantity.php:148
+#: inc/shortcodes/select_quantity.php:184
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:272
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:314
+msgid "Buy more, save more"
+msgstr "Køb mere, spar mere"
+
+#: assets/class-nutrisslim-landing-quantity-selector.php:315
+#: inc/shortcodes/select_quantity.php:196
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:323
+msgid "%d package"
+msgstr "%d pakke"
+
+#: assets/class-nutrisslim-landing-quantity-selector.php:349
+#: inc/shortcodes/select_quantity.php:237
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:357
+msgid "Select %d package(s)"
+msgstr "Vælg %d pakke(r)"
+
+#: assets/class-nutrisslim-landing-quantity-selector.php:353
+#: inc/shortcodes/select_quantity.php:241
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:361
+msgid "Regular price %s"
+msgstr "Normalpris %s"
+
+#: assets/class-nutrisslim-landing-quantity-selector.php:362
+msgid "Shipping costs 3,50 €"
+msgstr "Forsendelsesomkostninger 3,50 €"
+
+#: assets/class-nutrisslim-landing-quantity-selector.php:370
+#: assets/class-nutrisslim-landing-quantity-selector.php:381
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:378
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:389
+msgid "plus"
+msgstr "plus"
+
+#: assets/class-nutrisslim-landing-quantity-selector.php:373
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:381
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:514
+msgid "express-delivery"
+msgstr "ekspreslevering"
+
+#: assets/class-nutrisslim-landing-quantity-selector.php:375
+#: assets/class-nutrisslim-landing-quantity-selector.php:500
+#: assets/class-nutrisslim-landing-quantity-selector.php:502
+#: assets/class-nutrisslim-landing-quantity-selector.php:518
+#: assets/class-nutrisslim-landing-quantity-selector.php:520
+#: inc/shortcodes/select_quantity.php:265
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:219
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:383
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:516
+msgid "Free Shipping"
+msgstr "Gratis forsendelse"
+
+#: assets/class-nutrisslim-landing-quantity-selector.php:384
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:392
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:524
+msgid "free_gift"
+msgstr "gratis_gave"
+
+#: assets/class-nutrisslim-landing-quantity-selector.php:386
+#: assets/class-nutrisslim-landing-quantity-selector.php:509
+#: assets/class-nutrisslim-landing-quantity-selector.php:511
+#: assets/class-nutrisslim-landing-quantity-selector.php:527
+#: assets/class-nutrisslim-landing-quantity-selector.php:529
+#: inc/shortcodes/select_quantity.php:280
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:394
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:526
+msgid "Free Gift"
+msgstr "Gratis gave"
+
+#: assets/class-nutrisslim-landing-quantity-selector.php:480
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:485
+msgid "Price per product:"
+msgstr "Pris pr produkt:"
+
+#: assets/class-nutrisslim-landing-quantity-selector.php:484
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:489
+msgid "Total:"
+msgstr "Total:"
+
+#: assets/class-nutrisslim-landing-quantity-selector.php:491
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:496
+msgid "Choose Package"
+msgstr "Vælg Pakke"
+
+#: assets/class-nutrisslim-landing-quantity-selector.php:494
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:499
+msgid "You save"
+msgstr ""
+
+#: inc/after_purchase.php:107
+msgid "Shipping and Billing Address"
+msgstr "Forsendelses- og faktureringsadresse"
+
+#: inc/after_purchase.php:118
+msgid "Thank you for your purchase. We wish you a lovely rest of the day!"
+msgstr "Tak for dit køb. Vi ønsker dig en dejlig resten af ​​dagen!"
+
+#: inc/after_purchase.php:119
+msgid "Your Nature's Finest"
+msgstr ""
+
+#: inc/after_purchase.php:294
+msgid "Your order has been completed"
+msgstr ""
+
+#: inc/after_purchase.php:295 inc/after_purchase.php:362
+#: inc/after_purchase.php:560
+msgid "Thank you for choosing our products."
+msgstr "Tak fordi du valgte vores produkter."
+
+#: inc/after_purchase.php:298
+msgid "Review of your order"
+msgstr "Gennemgang af din ordre"
+
+#: inc/after_purchase.php:300
+msgid "Special offer"
+msgstr "Særligt tilbud"
+
+#: inc/after_purchase.php:301
+msgid "We've further discounted selected products for a limited time!"
+msgstr ""
+
+#: inc/after_purchase.php:349 inc/after_purchase.php:616
+#: inc/templates/emails/email-order-items.php:91
+#: inc/templates/emails/email-order-items.php:101
+msgid "Download book"
+msgstr "Download bog"
+
+#: inc/after_purchase.php:364 inc/after_purchase.php:561
+msgid ""
+"At Nature's Finest, we've been committed to offering the best natural "
+"solutions for a healthy life for 10 years – and thanks to you, we can "
+"continue this vision!"
+msgstr ""
+"Hos Nature's Finest har vi været forpligtet til at tilbyde de bedste "
+"naturlige løsninger til et sundt liv i 10 år – og takket være dig kan vi "
+"fortsætte denne vision!"
+
+#: inc/after_purchase.php:366 inc/after_purchase.php:563
+msgid "We will notify you immediately once your package is ready."
+msgstr ""
+
+#: inc/after_purchase.php:370 inc/after_purchase.php:567
+msgid ""
+"A confirmation of your order will be sent to your email address at <strong>"
+"%1$s</strong>."
+msgstr ""
+"En bekræftelse på din ordre vil blive sendt til din e-mailadresse på <strong>"
+"%1$s</strong>."
+
+#: inc/after_purchase.php:372 inc/after_purchase.php:568
+msgid "Show additional offer:"
+msgstr "Vis yderligere tilbud:"
+
+#: inc/after_purchase.php:385
+msgid "Add to order"
+msgstr "Tilføj til ordre"
+
+#: inc/after_purchase.php:386
+msgid "Remove from order"
+msgstr "Fjern fra ordre"
+
+#: inc/after_purchase.php:436 inc/after_purchase.php:440
+msgid "Complete order"
+msgstr "Komplet ordre"
+
+#: inc/after_purchase.php:443 inc/after_purchase.php:544
+msgid "I don’t want this offer"
+msgstr "Jeg ønsker ikke dette tilbud"
+
+#: inc/after_purchase.php:470
+msgid "<span>Last chance</span><br /> Get %1$s%% off!"
+msgstr "<span>Sidste chance</span><br /> Få %1$s%% rabat!"
+
+#: inc/checkout.php:11
+msgid "Bill to a company?"
+msgstr "Regning til en virksomhed?"
+
+#: inc/checkout.php:15
+msgid "Company Details"
+msgstr "Virksomhedsoplysninger"
+
+#: inc/checkout.php:21
+msgid "Enter your company name"
+msgstr "Indtast dit firmanavn"
+
+#: inc/checkout.php:28
+msgid "VAT Number"
+msgstr "Momsnummer"
+
+#: inc/checkout.php:29
+msgid "Enter your VAT number"
+msgstr "Indtast dit momsnummer"
+
+#: inc/checkout.php:78 inc/checkout.php:79 inc/checkout.php:112
+#: inc/checkout.php:113 inc/checkout.php:183 inc/checkout.php:184
+#: inc/checkout.php:226 inc/checkout.php:227
+msgid "House no."
+msgstr "Husnr."
+
+#: inc/checkout.php:805
+msgid "Show / Hide"
+msgstr "Vis / Skjul"
+
+#: inc/checkout.php:806
+msgid ""
+"This is an order with an obligation to pay. By submitting it, you agree to "
+"this. We are committed to protecting and respecting your privacy, so we will "
+"only use personal data to manage your order or account and provide "
+"information about the products you order from us."
+msgstr ""
+"Dette er en ordre med betalingspligt. Ved at indsende det, accepterer du "
+"dette. Vi er forpligtet til at beskytte og respektere dit privatliv, så vi "
+"vil kun bruge personlige data til at administrere din ordre eller konto og "
+"give oplysninger om de produkter, du bestiller hos os."
+
+#: inc/misc.php:1049
+msgid "Additional Fees Settings"
+msgstr "Indstillinger for ekstra gebyrer"
+
+#: inc/misc.php:1057 inc/misc.php:1352
+msgid "Eco-friendly packaging"
+msgstr "Miljøvenlig emballage"
+
+#: inc/misc.php:1059
+msgid "Price for eco-friendly packaging."
+msgstr "Pris for miljøvenlig emballage."
+
+#: inc/misc.php:1070
+msgid "šifrant for eco-friendly packaging."
+msgstr "kode for miljøvenlig emballage"
+
+#: inc/misc.php:1077 inc/misc.php:1363
+msgid "Package insurance"
+msgstr "Pakkeforsikring"
+
+#: inc/misc.php:1079
+msgid "Price for package insurance."
+msgstr "Pris for pakkeforsikring."
+
+#: inc/misc.php:1090
+msgid "šifrant for package insurance."
+msgstr "kode til pakkeforsikring."
+
+#: inc/misc.php:1097 inc/misc.php:1273
+msgid "Surprise Box"
+msgstr "Overraskelsesboks"
+
+#: inc/misc.php:1099
+msgid "Price for surprise box."
+msgstr "Pris for overraskelsesboks."
+
+#: inc/misc.php:1110
+msgid "šifrant for surprise box."
+msgstr "kode til overraskelsesboks."
+
+#: inc/misc.php:1117
+msgid "Surprise Box Value (Min)"
+msgstr "Overraskelsesboksværdi (Min.)"
+
+#: inc/misc.php:1119
+msgid "Minimum value for surprise box."
+msgstr "Minimumsværdi for overraskelsesboks."
+
+#: inc/misc.php:1128
+msgid "Surprise Box Value (Max)"
+msgstr "Overraskelsesboksværdi (Maks.)"
+
+#: inc/misc.php:1130
+msgid "Maximum value for surprise box."
+msgstr "Maksimal værdi for overraskelsesboks."
+
+#: inc/misc.php:1148
+msgid "Shipping Methods from Zones"
+msgstr "Forsendelsesmetoder fra zoner"
+
+#: inc/misc.php:1265
+msgid "Eco-friendly Packaging"
+msgstr "Miljøvenlig emballage"
+
+#: inc/misc.php:1269
+msgid "Package Insurance"
+msgstr "Pakkeforsikring"
+
+#: inc/misc.php:1338
+msgid "Valued between %s and %s %s."
+msgstr "Værdsat mellem %s og %s %s."
+
+#: inc/misc.php:1344
+msgid "Complete delivery"
+msgstr "Fuldstændig levering"
+
+#: inc/misc.php:1353
+msgid ""
+"Receive products in biodegradable, eco-friendly packaging, and join us in "
+"protecting nature."
+msgstr ""
+"Modtag produkter i biologisk nedbrydelig, miljøvenlig emballage, og vær med "
+"til at beskytte naturen."
+
+#: inc/misc.php:1364
+msgid ""
+"If the package is damaged during transport, we will replace the items "
+"without any questions."
+msgstr ""
+"Hvis pakken er beskadiget under transporten, erstatter vi varerne uden "
+"spørgsmål."
+
+#: inc/misc.php:1374
+msgid "Surprise box"
+msgstr "Overraskelsesboks"
+
+#: inc/misc.php:1386
+msgid "Delivery date"
+msgstr "Leveringsdato"
+
+#: inc/misc.php:2889
+msgid "Don’t miss out best deals!"
+msgstr "Gå ikke glip af de bedste tilbud!"
+
+#: inc/misc.php:2890
+msgid "Only here for limited time."
+msgstr "Kun her i begrænset tid."
+
+#: inc/product.php:26
+msgid "Save with a subscription"
+msgstr "Spar med et abonnement"
+
+#: inc/product.php:27
+msgid "Benefits of a subscription"
+msgstr "Fordele ved et abonnement"
+
+#: inc/product.php:29
+msgid ""
+"If you subscribe today, you will receive your first shipment at the current "
+"price, and starting from the second shipment, you will receive an <strong>"
+"additional 5% discount</strong>."
+msgstr ""
+"Hvis du abonnerer i dag, modtager du din første forsendelse til den aktuelle "
+"pris, og fra den anden forsendelse vil du modtage <strong>yderligere 5 % "
+"rabat</strong>."
+
+#: inc/product.php:30
+msgid "Save time - receive your shipment every month without needing to order."
+msgstr "Spar tid - modtag din forsendelse hver måned uden at skulle bestille."
+
+#: inc/product.php:31
+msgid ""
+"<strong>Free gift</strong> with every subscribed shipment, starting from the "
+"second shipment."
+msgstr ""
+"<strong>Gratis gave</strong> med hver forsendelse, du abonnerer på, fra den "
+"anden forsendelse."
+
+#: inc/product.php:32
+msgid "You can cancel your subscription at any time."
+msgstr ""
+
+#: inc/product.php:35
+msgid ""
+"A few days before your package is shipped, you will receive a reminder via "
+"email."
+msgstr ""
+"Et par dage før din pakke afsendes, vil du modtage en påmindelse via e-mail."
+
+#: inc/shortcodes/blogproduct.php:131
+#: inc/shortcodes/landing_product_display.php:119
+#: inc/widgets/class-nutrisslim-landing-content-widget.php:167
+#: inc/widgets/class-short-description-widget.php:64
+msgid "for %s days"
+msgstr "i %s dage"
+
+#: inc/shortcodes/blogproduct.php:168
+#: inc/shortcodes/landing_product_display.php:156
+#: inc/widgets/class-nutrisslim-landing-content-widget.php:188
+msgid "and save"
+msgstr "og gem"
+
+#: inc/shortcodes/blogproduct.php:169
+#: inc/shortcodes/landing_product_display.php:157
+#: inc/widgets/class-nutrisslim-landing-content-widget.php:189
+msgid "100% safe purchase with a no-questions-asked return policy."
+msgstr "100% safe purchase with a no-questions-asked return policy."
+
+#: inc/shortcodes/landing_product_tabs.php:28
+#: inc/widgets/class-nutrisslim-product-tabs-widget.php:115
+msgid "Warning:"
+msgstr ""
+
+#: inc/shortcodes/landing_product_tabs.php:39
+#: inc/widgets/class-nutrisslim-product-tabs-widget.php:67
+msgid "Usage"
+msgstr "Brug"
+
+#: inc/shortcodes/landing_product_tabs.php:44
+#: inc/widgets/class-nutrisslim-product-tabs-widget.php:75
+msgid "Ingredients"
+msgstr "Ingredienser"
+
+#: inc/shortcodes/landing_product_tabs.php:49
+#: inc/widgets/class-nutrisslim-product-tabs-widget.php:83
+msgid "Nutritional values"
+msgstr "Næringsværdier"
+
+#: inc/shortcodes/product_rating.php:37 inc/shortcodes/product_rating.php:41
+msgid "Verified review"
+msgid_plural "Verified reviews"
+msgstr[0] "Verificeret anmeldelse"
+msgstr[1] "Verificerede anmeldelser"
+
+#: inc/shortcodes/product_rating.php:39
+msgid "Verified reviews"
+msgstr ""
+
+#: inc/shortcodes/select_quantity.php:250
+msgid "Shipping costs £4.90"
+msgstr "Forsendelse koster £4,90"
+
+#: inc/shortcodes/select_quantity.php:296
+msgid "Updating offer ..."
+msgstr "Opdaterer tilbud ..."
+
+#: inc/submit_review.php:6
+msgid "Submit a review"
+msgstr "Send en anmeldelse"
+
+#: inc/submit_review.php:110
+msgid "We care about your opinion"
+msgstr ""
+
+#: inc/submit_review.php:111
+msgid ""
+"At Nature's Finest, we always strive to provide the best products and "
+"services for our valued customers. Would you like to rate your latest "
+"purchase?"
+msgstr ""
+"Hos Nature's Finest stræber vi altid efter at levere de bedste produkter og "
+"tjenester til vores værdsatte kunder. Vil du bedømme dit seneste køb?"
+
+#: inc/submit_review.php:112
+msgid ""
+"As a thank you for your time, we will send you a special gift with your "
+"order!"
+msgstr "Som en tak for din tid sender vi dig en særlig gave med din ordre!"
+
+#: inc/submit_review.php:124
+msgid "Rate and review your purchase"
+msgstr "Bedøm og anmeld dit køb"
+
+#: inc/submit_review.php:146
+msgid "Tell us what you think"
+msgstr "Fortæl os, hvad du synes"
+
+#: inc/templates/emails/customer-on-hold-order.php:32
+msgid ""
+"Your order is on hold until we receive confirmation of payment. The order "
+"details are shown below."
+msgstr ""
+
+#: inc/templates/emails/customer-processing-order.php:30
+msgid ""
+"Your order has been received and is currently being processed. The order "
+"details are visible below."
+msgstr ""
+
+#: inc/templates/emails/email-addresses.php:22
+msgid "Tax number"
+msgstr "Skattenummer"
+
+#: inc/templates/emails/email-order-details.php:949
+msgid "<b>Estimated Delivery date:</b> %1$s, %2$s delivery service."
+msgstr "<b>Estimeret leveringsdato:</b> %1$s, %2$s leveringstjeneste."
+
+#: inc/templates/emails/email_reviews_invite.php:74
+#: inc/templates/emails/trusted_reviews_invite.php:19
+msgid "Rate Nature’s Finest and get a reward!"
+msgstr "Bedøm Nature's Finest og få en belønning!"
+
+#: inc/templates/emails/email_reviews_invite.php:76
+#: inc/templates/emails/trusted_reviews_invite.php:21
+msgid ""
+"We are always trying to improve our products and services and we would "
+"really appreciate your feedback."
+msgstr ""
+
+#: inc/templates/emails/email_reviews_invite.php:79
+#: inc/templates/emails/trusted_reviews_invite.php:24
+msgid ""
+"<b>Rate your experience with us</b> - and as a thank you, we will send a <b>"
+"special gift</b> with your order!"
+msgstr ""
+"<b>Vurder din oplevelse med os</b> - og som tak sender vi en <b>særlig "
+"gave</b> sammen med din ordre!"
+
+#: inc/templates/emails/email_reviews_invite.php:84
+#: inc/templates/emails/trusted_reviews_invite.php:29
+msgid "RATE SHOP NOW"
+msgstr "VURDERING KØB NU"
+
+#: inc/templates/emails/email_reviews_invite.php:88
+msgid "Povprečna ocena"
+msgstr "Gennemsnitlig vurdering"
+
+#: inc/templates/emails/trusted_reviews_invite.php:33
+msgid "See other"
+msgstr "Se andet"
+
+#: inc/templates/emails/trusted_reviews_invite.php:33
+msgid "reviews!"
+msgstr "anmeldelser!"
+
+#: inc/widgets/class-acf-faq-accordion-widget.php:326
+#: inc/widgets/class-landing-faq-accordion-widget.php:164
+#: inc/widgets/class-nutrisslim-faq-widget.php:99
+msgid "Frequently Asked Questions of Our Users"
+msgstr "Ofte stillede spørgsmål fra vores brugere"
+
+#: inc/widgets/class-foot-widget.php:32
+msgid "Why choose Nature’s Finest?"
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:37
+msgid "<span>%s</span> years of tradition"
+msgstr "<span>%s</span> års tradition"
+
+#: inc/widgets/class-foot-widget.php:40
+msgid "<span>%s+</span> unique products"
+msgstr "<span>%s+</span> unikke produkter"
+
+#: inc/widgets/class-foot-widget.php:43
+msgid "<span>%s+</span> patented active ingredients"
+msgstr "<span>%s+</span> patenterede aktive ingredienser"
+
+#: inc/widgets/class-foot-widget.php:46
+msgid "<span>%smil+</span> satisfied customers"
+msgstr "<span>%smil+</span> tilfredse kunder"
+
+#: inc/widgets/class-foot-widget.php:56
+msgid "Natural:"
+msgstr "Naturlig:"
+
+#: inc/widgets/class-foot-widget.php:57
+msgid ""
+"We believe in the perfection of nature. Our commitment extends to "
+"responsible sourcing of raw materials, including sustainability, ethics, and "
+"fair business principles. We prioritize eco-friendly packaging to reduce our "
+"carbon footprint."
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:60
+msgid "Proven:"
+msgstr "Bevist:"
+
+#: inc/widgets/class-foot-widget.php:61
+msgid ""
+"The effectiveness of our products is confirmed by studies and research that "
+"are verifiable and repeatable. All our products are tested in independent "
+"laboratories, as our goal is to provide our customers with only the highest "
+"quality and effective products for their money."
+msgstr ""
+"Effektiviteten af ​​vores produkter bekræftes af undersøgelser og forskning, "
+"der er verificerbare og gentagelige. Alle vores produkter er testet i "
+"uafhængige laboratorier, da vores mål er kun at give vores kunder den "
+"højeste kvalitet og effektive produkter for pengene."
+
+#: inc/widgets/class-foot-widget.php:64
+msgid "Effective:"
+msgstr "Effektiv:"
+
+#: inc/widgets/class-foot-widget.php:65
+msgid ""
+"Nature offers effective solutions for many challenges we face. Our "
+"experienced development team uses and combines these exceptional substances "
+"in our products so that the body can best utilize them. Active ingredients "
+"in our products are present in proven effective amounts, not just in small "
+"and negligible percentages."
+msgstr ""
+"Naturen tilbyder effektive løsninger på mange udfordringer, vi står over for."
+" Vores erfarne udviklingsteam bruger og kombinerer disse exceptionelle "
+"stoffer i vores produkter, så kroppen bedst muligt kan udnytte dem. Aktive "
+"ingredienser i vores produkter er til stede i dokumenterede effektive "
+"mængder, ikke kun i små og ubetydelige procenter."
+
+#: inc/widgets/class-foot-widget.php:68
+msgid "Tested:"
+msgstr "Testet:"
+
+#: inc/widgets/class-foot-widget.php:69
+msgid ""
+"Our products are tested through various user studies and trials that ensure "
+"their safety and effectiveness. We always listen carefully to the feedback "
+"from our customers and consider their opinions, criticisms, and suggestions "
+"to ensure that our products are truly tailored to their needs."
+msgstr ""
+"Vores produkter er testet gennem forskellige brugerundersøgelser og forsøg, "
+"der sikrer deres sikkerhed og effektivitet. Vi lytter altid nøje til "
+"feedback fra vores kunder og overvejer deres meninger, kritik og forslag for "
+"at sikre, at vores produkter virkelig er skræddersyet til deres behov."
+
+#: inc/widgets/class-foot-widget.php:76
+msgid "Meet Our Development Experts"
+msgstr "Mød vores udviklingseksperter"
+
+#: inc/widgets/class-foot-widget.php:78
+msgid ""
+"We are proud to have only the best experts in the field of nutrition and "
+"dietary supplements on our team, who ensure the development and exceptional "
+"quality of our products. With outstanding dedication, they lead studies and "
+"research and collaborate with external laboratories, inspection bodies, and "
+"other experts to ensure the highest quality and safety of our products."
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:79
+msgid ""
+"With rich experience and professional knowledge of the industry, our experts "
+"strive to provide Nutrisslim customers with the most innovative products, "
+"thus maintaining its status as one of the leading companies in the field of "
+"nutrition and dietary supplements."
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:83 inc/widgets/class-foot-widget.php:84
+msgid "Meta Bizjak"
+msgstr "Meta Bizjak"
+
+#: inc/widgets/class-foot-widget.php:84
+msgid "M.Sc. Nutrition Engineering"
+msgstr "M.Sc. Ernæringsteknik"
+
+#: inc/widgets/class-foot-widget.php:87 inc/widgets/class-foot-widget.php:88
+msgid "Pia Fistrovič"
+msgstr "Pia Fistrovič"
+
+#: inc/widgets/class-foot-widget.php:88
+msgid "Food and Nutrition Engineer"
+msgstr "Fødevare- og ernæringsingeniør"
+
+#: inc/widgets/class-foot-widget.php:94
+msgid "#WeAreNature"
+msgstr "#ViErNaturen"
+
+#: inc/widgets/class-foot-widget.php:95
+msgid "»Committed to delivering the most natural products to your home«"
+msgstr "»Forpligtet til at levere de mest naturlige produkter til dit hjem«"
+
+#: inc/widgets/class-foot-widget.php:96
+msgid ""
+"For over 13 years, Nature’s Finest has been dedicated to offering natural "
+"solutions for those who want to overcome challenges and discomforts with a "
+"healthy lifestyle. We use only 100% natural ingredients, traditionally grown "
+"without additives or unnecessary processing. Whenever possible, we use "
+"ingredients from organic farming, supported by the SI-EKO certificate. This "
+"ensures that no genetically modified organisms (GMOs) or pesticides are used."
+msgstr ""
+"I over 13 år har Nature's Finest været dedikeret til at tilbyde naturlige "
+"løsninger til dem, der ønsker at overvinde udfordringer og ubehag med en "
+"sund livsstil. Vi bruger kun 100% naturlige ingredienser, traditionelt "
+"dyrket uden tilsætningsstoffer eller unødvendig forarbejdning. Når det er "
+"muligt, bruger vi ingredienser fra økologisk landbrug, understøttet af SI-"
+"EKO certifikatet. Dette sikrer, at der ikke bruges genetisk modificerede "
+"organismer (GMO'er) eller pesticider."
+
+#: inc/widgets/class-gift-widget.php:35
+msgid "FREE<br />E-book"
+msgstr "GRATIS<br />E-bog"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:87
+msgid "pack"
+msgstr "pakke"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:90
+msgid "packs"
+msgstr "pakker"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:93
+msgid "piece"
+msgstr "stykke"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:97
+msgid "pieces"
+msgstr "stykker"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:175
+msgid "for <span class=\"numdays\">%s</span> days"
+msgstr "i <span class=\"numdays\">%s</span> dage"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:177
+msgid "Select the desired quantity:"
+msgstr "Vælg den ønskede mængde:"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:211
+msgid "Top choice"
+msgstr "Top valg"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:240
+msgid "Subscribe & Save"
+msgstr "Abonner & Gem"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:241
+msgid "Extra discount"
+msgstr "Ekstra rabat"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:243
+msgid "One-time purchase"
+msgstr "Engangskøb"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:251
+msgid "Switch to a subscription and save %s"
+msgstr "Skift til et abonnement og gem %s"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:258
+msgid ""
+"You can have the same for only %s. Convenient way to get best prices. You "
+"can change or cancel your subscription any time!"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:265
+msgid "Please select your subscription period:"
+msgstr "Vælg venligst din abonnementsperiode:"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:269
+msgid "Send every"
+msgstr "Send hver"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:269
+msgid "days"
+msgstr "dage"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:274
+msgid "You can cancel the subscription at any time."
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:275
+msgid "Verified lowest price"
+msgstr "Verificeret laveste pris"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:276
+msgid "Learn more about the subscription"
+msgstr "Få mere at vide om abonnementet"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:287
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:293
+msgid "each <span class=\"numdays\">%s</span> days"
+msgstr "hver <span class=\"numdays\">%s</span> dag"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:294
+msgid "Save <span class=\"prihrana\">%s</span>"
+msgstr "Gem <span class=\"prehrana\">%s</span>"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:298
+msgid "In stock, ready for delivery"
+msgstr "På lager, klar til levering"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:306
+msgid "%s-day money-back guarantee"
+msgstr "%s-dages pengene-tilbage garanti"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:307
+msgid "Free shipping on orders over %s"
+msgstr "Gratis forsendelse på ordrer over %s"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:308
+msgid "Delivery in %s business days"
+msgstr "Levering i %s hverdage"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:325
+msgid "For orders and inquiries, call <strong>phone number %s</strong>"
+msgstr "Ring til <strong>telefonnummer %s</strong> for ordrer og forespørgsler"
+
+#: inc/widgets/class-nutrisslim-featured-image-widget.php:145
+msgid ""
+"Using %1$s will cost you<br /><span class=\"daily\">only %2$s per day</span>"
+msgstr ""
+"Brug af %1$s vil koste dig<br /><span class=\"daily\">kun %2$s pr. dag</span>"
+
+#: inc/widgets/class-nutrisslim-landing-content-widget.php:130
+#: inc/widgets/class-nutrisslim-landing-reviews-widget.php:161
+#: inc/widgets/class-nutrisslim-main-review-widget.php:42
+#: inc/widgets/class-nutrisslim-reviews-widget.php:68
+msgid "Verified user"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:266
+msgid "%s by %s in %d-%d working days"
+msgstr "%s gange %s i %d-%d arbejdsdage"
+
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:506
+msgid "Shipping costs 4.90 £"
+msgstr "Forsendelsesomkostninger 4,90 £"

@@ -1,0 +1,534 @@
+# Copyright (C) 2024 Nenad Radoja
+# This file is distributed under the same license as the Nutrisslim Suite plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Nutrisslim Suite 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/nutrisslim-suite\n"
+"POT-Creation-Date: 2024-08-01T12:07:55+00:00\n"
+"PO-Revision-Date: 2024-08-01 14:44+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4\n"
+"X-Domain: nutrisslim-suite\n"
+
+#. Plugin Name of the plugin
+#: nutrisslim-suite.php
+msgid "Nutrisslim Suite"
+msgstr "Nutrisslim Suite"
+
+#. Description of the plugin
+#: nutrisslim-suite.php
+msgid "Basic adjustments for Nutrisslim sites"
+msgstr "Osnovne nastavitve za Nutrisslim strani"
+
+#. Author of the plugin
+#: nutrisslim-suite.php
+msgid "Nenad Radoja"
+msgstr "Nenad Radoja"
+
+#: inc/checkout.php:11
+msgid "Bill to a company?"
+msgstr "Račun na podjetje?"
+
+#: inc/checkout.php:15
+msgid "Company Details"
+msgstr "Podatki o podjetju"
+
+#: inc/checkout.php:21
+msgid "Enter your company name"
+msgstr "Vnesite ime svojega podjetja"
+
+#: inc/checkout.php:28
+msgid "VAT Number"
+msgstr "Davčna številka"
+
+#: inc/checkout.php:29
+msgid "Enter your VAT number"
+msgstr "Vnesite svojo davčno številko"
+
+#: inc/checkout.php:75 inc/checkout.php:155
+msgid "House no."
+msgstr "Hišna št."
+
+#: inc/checkout.php:931
+msgid "Show / Hide"
+msgstr "Prikaži / Skrij"
+
+#: inc/checkout.php:932
+msgid ""
+"This is an order with an obligation to pay. By submitting it, you agree to "
+"this. We are committed to protecting and respecting your privacy, so we will "
+"only use personal data to manage your order or account and provide "
+"information about the products you order from us."
+msgstr ""
+"To je naročilo s plačilno obveznostjo. S pošiljanjem tega naročila se s tem "
+"strinjate. Zavezani smo k varovanju in spoštovanju vaše zasebnosti, zato "
+"bomo osebne podatke uporabili le za upravljanje vašega naročila ali računa "
+"ter za zagotavljanje informacij o izdelkih, ki jih naročite pri nas."
+
+#: inc/misc.php:986
+msgid "Additional Fees Settings"
+msgstr "Nastavitve Dodatnih Stroškov"
+
+#: inc/misc.php:992 inc/misc.php:1169
+msgid "Eco-friendly packaging"
+msgstr "Eko embalaža"
+
+#: inc/misc.php:994
+msgid "Price for eco-friendly packaging."
+msgstr "Cena za eko prijazno embalažo."
+
+#: inc/misc.php:1003 inc/misc.php:1180
+msgid "Package insurance"
+msgstr "Zavarovanje paketa"
+
+#: inc/misc.php:1005
+msgid "Price for package insurance."
+msgstr "Cena za zavarovanje paketa."
+
+#: inc/misc.php:1014 inc/misc.php:1094
+msgid "Surprise Box"
+msgstr "Paket presenečenja"
+
+#: inc/misc.php:1016
+msgid "Price for surprise box."
+msgstr "Cena za paket presenečenja."
+
+#: inc/misc.php:1025
+msgid "Surprise Box Value (Min)"
+msgstr "Vrednost paketa presenečenja (min)"
+
+#: inc/misc.php:1027
+msgid "Minimum value for surprise box."
+msgstr "Minimalna vrednost za paket presenečenja."
+
+#: inc/misc.php:1036
+msgid "Surprise Box Value (Max)"
+msgstr "Vrednost paketa presenečenja (max)"
+
+#: inc/misc.php:1038
+msgid "Maximum value for surprise box."
+msgstr "Maksimalna vrednost za paket presenečenja."
+
+#: inc/misc.php:1086
+msgid "Eco-friendly Packaging"
+msgstr "Eko embalaža"
+
+#: inc/misc.php:1090
+msgid "Package Insurance"
+msgstr "Zavarovanje paketa"
+
+#: inc/misc.php:1155
+msgid "Valued between %s and %s %s."
+msgstr "Vrednost med %s in %s %s."
+
+#: inc/misc.php:1161
+msgid "Complete delivery"
+msgstr "Zaključi dostavo"
+
+#: inc/misc.php:1170
+msgid ""
+"Receive products in biodegradable, eco-friendly packaging, and join us in "
+"protecting nature."
+msgstr ""
+"Prejmite izdelke v biorazgradljivi, okolju prijazni embalaži in se nam "
+"pridružite pri varovanju narave."
+
+#: inc/misc.php:1181
+msgid ""
+"If the package is damaged during transport, we will replace the items "
+"without any questions."
+msgstr ""
+"Če je paket poškodovan med prevozom, bomo zamenjali izdelke brez vprašanj."
+
+#: inc/misc.php:1191
+msgid "Surprise box"
+msgstr "Paket presenečenja"
+
+#: inc/misc.php:1203
+msgid "Delivery date"
+msgstr "Datum dostave"
+
+#: inc/product.php:26
+msgid "Save with a subscription"
+msgstr "Prihranite z naročnino"
+
+#: inc/product.php:27
+msgid "Benefits of a subscription"
+msgstr "Prednosti naročnine"
+
+#: inc/product.php:29
+msgid ""
+"If you subscribe today, you will receive your first shipment at the current "
+"price, and starting from the second shipment, you will receive an "
+"<strong>additional 5% discount</strong>."
+msgstr ""
+"Če se naročite danes, boste prvo pošiljko prejeli po trenutni ceni, od druge "
+"pošiljke naprej pa boste prejeli <strong>dodatnih 5% popusta</strong>."
+
+#: inc/product.php:30
+msgid "Save time - receive your shipment every month without needing to order."
+msgstr ""
+"Prihranite čas - prejemajte svojo pošiljko vsak mesec brez potrebe po "
+"naročanju."
+
+#: inc/product.php:31
+msgid ""
+"<strong>Free gift</strong> with every subscribed shipment, starting from the "
+"second shipment."
+msgstr ""
+"<strong>Brezplačno darilo</strong> z vsako naročeno pošiljko, od druge "
+"pošiljke naprej."
+
+#: inc/product.php:32
+msgid "You can cancel your subscription at any time."
+msgstr "Naročnino lahko kadar koli prekličete."
+
+#: inc/product.php:33
+msgid "<strong>Free shipping</strong> from the second shipment onwards."
+msgstr "<strong>Brezplačna dostava</strong> od druge pošiljke naprej."
+
+#: inc/product.php:35
+msgid ""
+"A few days before your package is shipped, you will receive a reminder via "
+"email."
+msgstr ""
+"Nekaj dni pred pošiljanjem vašega paketa boste prejeli opomnik po "
+"elektronski pošti."
+
+#: inc/shortcodes/cart_upsell.php:7
+msgid "Would you like to try additional products?"
+msgstr "Bi želeli preizkusiti dodatne izdelke?"
+
+#: inc/shortcodes/cart_upsell.php:8
+msgid "Add to your order and save!"
+msgstr "Dodajte svojemu naročilu in prihranite!"
+
+#: inc/shortcodes/product_rating.php:34
+#: inc/widgets/class-nutrisslim-landing-content-widget.php:130
+#: inc/widgets/class-nutrisslim-landing-reviews-widget.php:161
+#: inc/widgets/class-nutrisslim-main-review-widget.php:42
+#: inc/widgets/class-nutrisslim-reviews-widget.php:68
+msgid "Verified user"
+msgstr "Preverjen uporabnik"
+
+#: inc/templates/emails/customer-on-hold-order.php:32
+msgid ""
+"Your order is on hold until we receive confirmation of payment. The order "
+"details are shown below."
+msgstr ""
+"Vaše naročilo je zadržano, dokler ne prejmemo potrditve plačila. Podrobnosti "
+"naročila so prikazane spodaj."
+
+#: inc/templates/emails/email-addresses.php:22
+msgid "Tax number"
+msgstr "Davčna številka"
+
+#: inc/templates/emails/email-order-details.php:949
+msgid "<b>Estimated Delivery date:</b> %1$s, %2$s delivery service."
+msgstr "<b>Predvideni datum dostave:</b> %1$s, %2$s dostavna služba."
+
+#: inc/templates/emails/email_reviews_invite.php:71
+#: inc/templates/emails/trusted_reviews_invite.php:7
+msgid "Rate Nature’s Finest and get a reward!"
+msgstr "Ocenite Nature’s Finest in prejmite nagrado!"
+
+#: inc/templates/emails/email_reviews_invite.php:73
+#: inc/templates/emails/trusted_reviews_invite.php:9
+msgid ""
+"We are always trying to improve our products and services and we would "
+"really appreciate your feedback."
+msgstr ""
+"Vedno poskušamo izboljšati naše izdelke in storitve in bi zelo cenili vaše "
+"povratne informacije."
+
+#: inc/templates/emails/email_reviews_invite.php:76
+#: inc/templates/emails/trusted_reviews_invite.php:12
+msgid ""
+"<b>Rate your experience with us</b> - and as a thank you, we will send a "
+"<b>special gift</b> with your order!"
+msgstr ""
+"<b>Ocenite svojo izkušnjo z nami</b> - in kot zahvalo vam bomo z naročilom "
+"poslali <b>posebno darilo</b>!"
+
+#: inc/templates/emails/email_reviews_invite.php:81
+#: inc/templates/emails/trusted_reviews_invite.php:17
+msgid "RATE SHOP NOW"
+msgstr "OCENITE TRGOVINO"
+
+#: inc/templates/emails/email_reviews_invite.php:85
+msgid "Povprečna ocena"
+msgstr "Povprečna ocena"
+
+#: inc/templates/emails/trusted_reviews_invite.php:21
+msgid "See other"
+msgstr "Poglejte druge"
+
+#: inc/templates/emails/trusted_reviews_invite.php:21
+msgid "reviews!"
+msgstr "ocene!"
+
+#: inc/widgets/class-foot-widget.php:32
+msgid "Why choose Nature’s Finest?"
+msgstr "Zakaj izbrati Nature’s Finest?"
+
+#: inc/widgets/class-foot-widget.php:37
+msgid "<span>%s</span> years of tradition"
+msgstr "<span>%s</span> let tradicije"
+
+#: inc/widgets/class-foot-widget.php:40
+msgid "<span>%s+</span> unique products"
+msgstr "<span>%s+</span> unikatnih izdelkov"
+
+#: inc/widgets/class-foot-widget.php:43
+msgid "<span>%s+</span> patented active ingredients"
+msgstr "<span>%s+</span> patentiranih učinkovin"
+
+#: inc/widgets/class-foot-widget.php:46
+msgid "<span>%smil+</span> satisfied customers"
+msgstr "<span>%smio+</span> zadovoljnih kupcev"
+
+#: inc/widgets/class-foot-widget.php:56
+msgid "Natural:"
+msgstr "Naravno:"
+
+#: inc/widgets/class-foot-widget.php:57
+msgid ""
+"We believe in the perfection of nature. Our commitment extends to "
+"responsible sourcing of raw materials, including sustainability, ethics, and "
+"fair business principles. We prioritize eco-friendly packaging to reduce our "
+"carbon footprint."
+msgstr ""
+"Verjamemo v popolnost narave. Naša zaveza se razteza do odgovornega "
+"pridobivanja surovin, vključno s trajnostjo, etiko in načeli poštenega "
+"poslovanja. Prednost dajemo okolju prijazni embalaži za zmanjšanje našega "
+"ogljičnega odtisa."
+
+#: inc/widgets/class-foot-widget.php:60
+msgid "Proven:"
+msgstr "Dokazano:"
+
+#: inc/widgets/class-foot-widget.php:61
+msgid ""
+"The effectiveness of our products is confirmed by studies and research that "
+"are verifiable and repeatable. All our products are tested in independent "
+"laboratories, as our goal is to provide our customers with only the highest "
+"quality and effective products for their money."
+msgstr ""
+"Učinkovitost naših izdelkov je potrjena s študijami in raziskavami, ki so "
+"preverljive in ponovljive. Vsi naši izdelki so preizkušeni v neodvisnih "
+"laboratorijih, saj je naš cilj, da naše stranke za svoj denar dobijo le "
+"najbolj kakovostne in učinkovite izdelke."
+
+#: inc/widgets/class-foot-widget.php:64
+msgid "Effective:"
+msgstr "Učinkovito:"
+
+#: inc/widgets/class-foot-widget.php:65
+msgid ""
+"Nature offers effective solutions for many challenges we face. Our "
+"experienced development team uses and combines these exceptional substances "
+"in our products so that the body can best utilize them. Active ingredients "
+"in our products are present in proven effective amounts, not just in small "
+"and negligible percentages."
+msgstr ""
+"Narava ponuja učinkovite rešitve za veliko izzivov, s katerimi se soočamo. "
+"Naša izkušena razvojna ekipa te izjemne snovi v izdelkih uporabi in "
+"kombinira tako, da jih telo lahko najbolje izkoristi. Aktivne snovi so v "
+"naših izdelkih prisotne v dokazano učinkovitih količinah in ne le v majhnih "
+"in zanemarljivih odstotkih."
+
+#: inc/widgets/class-foot-widget.php:68
+msgid "Tested:"
+msgstr "Preizkuseno:"
+
+#: inc/widgets/class-foot-widget.php:69
+msgid ""
+"Our products are tested through various user studies and trials that ensure "
+"their safety and effectiveness. We always listen carefully to the feedback "
+"from our customers and consider their opinions, criticisms, and suggestions "
+"to ensure that our products are truly tailored to their needs."
+msgstr ""
+"Naši izdelki so preizkušeni z različnimi uporabniškimi študijami in "
+"testiranji, ki zagotavljajo njihovo varnost in učinkovitost. Vselej pozorno "
+"poslušamo povratne informacije naših strank in upoštevamo njihove mnenja, "
+"kritike in predloge, da zagotovimo izdelke, ki so resnično prilagojeni "
+"njihovim potrebam."
+
+#: inc/widgets/class-foot-widget.php:76
+msgid "Meet Our Development Experts"
+msgstr "Spoznaj naše razvojne strokovnjake"
+
+#: inc/widgets/class-foot-widget.php:78
+msgid ""
+"We are proud to have only the best experts in the field of nutrition and "
+"dietary supplements on our team, who ensure the development and exceptional "
+"quality of our products. With outstanding dedication, they lead studies and "
+"research and collaborate with external laboratories, inspection bodies, and "
+"other experts to ensure the highest quality and safety of our products."
+msgstr ""
+"Ponosni smo, da imamo v svoji ekipi le najboljše strokovnjake s področja "
+"prehrane in prehranskih dodatkov, ki skrbijo za razvoj in izjemno kakovost "
+"naših izdelkov. Z izjemo predanostjo vodijo študije in raziskave ter "
+"sodelujejo z zunanjimi laboratoriji, inšpekcijskimi organi in drugimi "
+"strokovnjaki, da zagotovijo vrhunsko kakovost in varnost naših izdelkov."
+
+#: inc/widgets/class-foot-widget.php:79
+msgid ""
+"With rich experience and professional knowledge of the industry, our experts "
+"strive to provide Nutrisslim customers with the most innovative products, "
+"thus maintaining its status as one of the leading companies in the field of "
+"nutrition and dietary supplements."
+msgstr ""
+"Z bogatimi izkušnjami in strokovnim poznavanjem industrije si naši "
+"strokovnjaki prizadevajo, da Nutrisslim svojim strankam nudi le najbolj "
+"inovativne izdelke in tako ostaja eno izmed vodilnih podjetij v panogi "
+"prehrane in prehranskih dopolnil."
+
+#: inc/widgets/class-foot-widget.php:83 inc/widgets/class-foot-widget.php:84
+msgid "Meta Bizjak"
+msgstr "Meta Bizjak"
+
+#: inc/widgets/class-foot-widget.php:84
+msgid "M.Sc. Nutrition Engineering"
+msgstr "Mag. inž. prehrane"
+
+#: inc/widgets/class-foot-widget.php:87 inc/widgets/class-foot-widget.php:88
+msgid "Pia Fistrovič"
+msgstr "Pia Fistrovič"
+
+#: inc/widgets/class-foot-widget.php:88
+msgid "Food and Nutrition Engineer"
+msgstr "Inž. živilstva in prehrane"
+
+#: inc/widgets/class-foot-widget.php:94
+msgid "#WeAreNature"
+msgstr "#WeAreNature"
+
+#: inc/widgets/class-foot-widget.php:95
+msgid "»Committed to delivering the most natural products to your home«"
+msgstr "»Zavezani k dostavljanju najbolj naravnih izdelkov v vaš dom«"
+
+#: inc/widgets/class-foot-widget.php:96
+msgid ""
+"For over 13 years, Nature’s Finest has been dedicated to offering natural "
+"solutions for those who want to overcome challenges and discomforts with a "
+"healthy lifestyle. We use only 100% natural ingredients, traditionally grown "
+"without additives or unnecessary processing. Whenever possible, we use "
+"ingredients from organic farming, supported by the SI-EKO certificate. This "
+"ensures that no genetically modified organisms (GMOs) or pesticides are used."
+msgstr ""
+"Pri Nature’s Finest se zato že več kot 13 let prizadevamo za ponujanje "
+"naravnih rešitev za vse, ki želijo z zdravim načinom življenja premagati "
+"težave in neprijetnosti, s katerimi se srečujejo. Uporabljamo samo 100% "
+"naravne sestavine, ki so pridelane na tradicionalni način, brez aditivov ali "
+"nepotrebnih pridelovalnih procesov. Kadar je mogoče, uporabljamo sestavine "
+"iz ekološke pridelave, podprte s strani certifikata SI-EKO. To zagotavlja, "
+"da ni bilo uporabljanih nobenih gensko spremenjeni organizmi (GSO) ali "
+"pesticidov."
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:87
+msgid "package"
+msgstr "paket"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:90
+msgid "packages"
+msgstr "paketi"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:93
+msgid "piece"
+msgstr "kom"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:97
+msgid "pieces"
+msgstr "kom"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:153
+msgid "Select the desired quantity:"
+msgstr "Izberi želeno količino:"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:187
+msgid "Top choice"
+msgstr "Top izbira"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:216
+msgid "Subscribe & Save"
+msgstr "Naroči se & prihrani"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:217
+msgid "Extra discount"
+msgstr "Dodatni popust"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:219
+msgid "One-time purchase"
+msgstr "Enkratno naročilo"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:227
+msgid "Switch to a subscription and save %s"
+msgstr "Preklopite na naročnino in prihranite %s"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:234
+msgid ""
+"You can have the same for only %s. Convenient way to get Free Shipping and "
+"best prices. You can change or cancel your subscription any time!"
+msgstr ""
+"Isto lahko dobite za samo %s. Udoben način za brezplačno pošiljanje in "
+"najboljše cene. Naročnino lahko kadar koli spremenite ali prekličete!"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:241
+msgid "Please select your subscription period:"
+msgstr "Izberi prejemanje pošiljke:"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:245
+msgid "Send every"
+msgstr "Pošlji vsake"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:245
+msgid "days"
+msgstr "dni"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:250
+msgid "You can cancel the subscription at any time."
+msgstr "Naročnino lahko kadar koli prekličete."
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:251
+msgid "Verified lowest price"
+msgstr "Preverjeno najnižja cena"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:252
+msgid "Learn more about the subscription"
+msgstr "Poglej več o naročnini"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:263
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:269
+msgid "each <span class=\"numdays\">%s</span> days"
+msgstr "vsakih <span class=“numdays”>%s</span> dni"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:270
+msgid "Save <span class=\"prihrana\">%s</span>"
+msgstr "Prihrani <span class=“numdays”>%s</span>"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:274
+msgid "In stock, ready for delivery"
+msgstr "Na zalogi, pripravljeno za dostavo"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:282
+msgid "%s-day money-back guarantee"
+msgstr "%s dnevna pravica do vračila denarja"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:283
+msgid "Free shipping on orders over %s"
+msgstr "Brezplačna dostava nad %s"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:284
+msgid "Delivery in %s business days"
+msgstr "Dostava v %s delovnih dneh"
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:301
+msgid "For orders and inquiries, call <strong>phone number %s</strong>"
+msgstr ""
+"Za naročila in vprašanja pokličite na <strong>telefonsko številko %s</strong>"

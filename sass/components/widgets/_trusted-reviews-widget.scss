@@ -1,0 +1,293 @@
+/* Shared Styles for Both Blocks */
+
+/* General styles */
+.trusted-review-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.trusted-review-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.trusted-swiper-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.trusted-swiper-slide {
+    height: 100%;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.trusted-revSlid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.trusted-square {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+}
+
+.trusted-top-row {
+    display: flex;
+	margin-bottom: 5px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.trusted-review-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+/* Optional: Style the scrollbar (for webkit-based browsers like Chrome) */
+.trusted-revComment::-webkit-scrollbar {
+    width: 8px;
+}
+
+.trusted-revComment::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.trusted-revComment::-webkit-scrollbar-track {
+    background: transparent;
+}
+.highlighted-review-comment::-webkit-scrollbar {
+    width: 8px;
+}
+
+.highlighted-review-comment::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.highlighted-review-comment::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.trusted-star {
+    position: relative;
+    top: 4px;
+    width: 26px;
+}
+
+.trusted-highlight {
+    color: #ff8c00;
+    font-weight: bold;
+}
+
+.trusted-udata {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.trusted-name {
+    text-align: left;
+}
+
+.trusted-checker {
+    text-align: right;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.trusted-checker .trusted-check img {
+    width: 15px;
+    height: 15px;
+}
+
+.trusted-checker .trusted-check {
+    background-color: #1FB25A;
+    display: inline-flex;
+    border-radius: 100px;
+    align-items: center;
+    width: 19px;
+    height: 19px;
+    justify-content: center;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
+.trusted-gap {
+    height: 20px;
+}
+
+.trusted-review-date {
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.trusted-review-container .trusted-swiper-container-wrapper .swiper-scrollbar {
+    width: 100%;
+    margin: 0 auto;
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-top: 25px; /* Space between the swiper and scrollbar */
+    border-radius: 10px;
+    position: relative;
+    left: 0px;
+}
+
+.trusted-review-container .trusted-swiper-container-wrapper .swiper-scrollbar .swiper-scrollbar-drag {
+    background-color: rgba(0, 0, 0, 0.25);
+    height: 100%;
+    border-radius: 10px;
+}
+
+.trusted-review-quote{
+	margin-bottom: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .swiper-wrapper.cent {
+        justify-content: flex-start;
+    }
+    
+    .swiper-scrollbar {
+        display: none;
+    }
+
+    .swiper-slide {
+        flex: 0 0 auto;
+        width: calc(100% - 10px); /* Adjust the width to account for space between slides */
+    }
+}
+
+.trusted-review-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* Styling for stars */
+.trusted-review-stars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.trusted-review-stars img {
+    width: 20px; /* Adjust star size */
+    margin-right: 2px;
+}
+
+/* Styling for the big rating number */
+.trusted-review-rating {
+    font-size: 34px;
+    font-weight: bold;
+    color: #282828;
+    margin-bottom: 0px;
+}
+
+/* Styling for the "Great" text */
+.trusted-review-text {
+    font-size: 22px;
+    font-weight: 800;
+    color: #282828;
+}
+
+/* Swiper container customizations (already in use) */
+.swiper-container {
+    flex-grow: 1;
+}
+
+.highlighted-review {
+	max-width: 55%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.highlighted-review h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.highlighted-review-comment {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.highlighted-review-author {
+	display: flex;
+	justify-content: space-between;
+    font-size: 14px;
+    color: #1fb25a;
+	margin-bottom: 0px;
+}
+
+.extra-review-logo img{
+	width:30px;
+}
+
+.highlighted-review-author p{
+	margin-bottom: 0px;
+}
+
+.trusted-divider{
+	width: 100%;
+    background: #ebebeb;
+    height: 1px;
+    margin: 18px 0px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .trusted-review-container {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom:1rem;
+    }
+    
+    .trusted-reviewswiper {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .trusted-swiper-container-wrapper {
+        max-width: 100%;
+        width: 100%;
+    }
+	.highlighted-review {
+		max-width: 100%;
+		margin: 0px 20px;
+	}
+}

@@ -1,0 +1,14 @@
+.postbox-header h2 {
+    flex-grow: 0 !important;
+}
+.postbox-header > p {
+    font-size: 12px;
+    margin: 5px 0;
+    flex-grow: 1;
+}
+.acf-postbox .acf-hndle-cog {
+    display:none !important;
+}
+.no-drag .hndle {
+    cursor: default !important;
+}

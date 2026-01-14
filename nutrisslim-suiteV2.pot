@@ -1,0 +1,1316 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nutrisslim SuiteV2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-18 13:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.14; wp-6.7\n"
+"X-Domain: nutrisslim-suiteV2"
+
+#: inc/widgets/class-product-swiper-widget.php:195
+msgid " Add to cart"
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:94
+msgid "#WeAreNature"
+msgstr ""
+
+#: inc/shortcodes/select_quantity.php:200
+msgid "%d package"
+msgstr ""
+
+#: inc/widgets/class-trusted-reviews-widget.php:454
+#, php-format
+msgid "%s ago by %s"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:350
+#, php-format
+msgid "%s in 2 working days"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:373
+#, php-format
+msgid "%s-day money-back guarantee"
+msgstr ""
+
+#: inc/after_purchase.php:1198
+msgid "(inc. TAX)"
+msgstr ""
+
+#: inc/templates/emails/email-order-details.php:543
+msgid "(incl. tax)"
+msgstr ""
+
+#: inc/after_purchase_original.php:96
+msgid "(incl. VAT)"
+msgstr ""
+
+#: inc/after_purchase.php:110
+msgid "(with VAT)"
+msgstr ""
+
+#: inc/templates/emails/email-order-details.php:655
+#: inc/templates/emails/email-order-details.php:815
+msgid "(without VAT)"
+msgstr ""
+
+#: inc/shortcodes/landing_product_display.php:157
+#: inc/shortcodes/blogproduct.php:169
+#: inc/widgets/class-nutrisslim-landing-content-widget.php:205
+msgid "100% safe purchase with a no-questions-asked return policy."
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:400
+msgid "1x Bundle"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:401
+msgid "2x Bundle"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:402
+msgid "3x Bundle"
+msgstr ""
+
+#: inc/templates/emails/email_reviews_invite.php:109
+msgid ""
+"<b>Rate your experience with us</b> - and as a thank you, we will send a <b>"
+"special gift</b> with your order!"
+msgstr ""
+
+#: inc/templates/emails/trusted_reviews_invite.php:33
+msgid ""
+"<b>Rate your experience with us</b> – as a thank you, we’ll send a <b>"
+"special gift</b> with your order!"
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:43
+#, php-format
+msgid "<span>%s+</span> patented active ingredients"
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:40
+#, php-format
+msgid "<span>%s+</span> unique products"
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:37
+#, php-format
+msgid "<span>%s</span> years of tradition"
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:46
+#, php-format
+msgid "<span>%smil+</span> satisfied customers"
+msgstr ""
+
+#: inc/after_purchase_original.php:498 inc/after_purchase.php:532
+#, php-format
+msgid "<span>Last chance</span><br /> Get %1$s%% off!"
+msgstr ""
+
+#. %1$s: Order ID. %2$s: Order date
+#: inc/templates/emails/plain/email-order-details.php:23
+#, php-format
+msgid "[Order #%1$s] (%2$s)"
+msgstr ""
+
+#: inc/after_purchase_original.php:378 inc/after_purchase_original.php:595
+#: inc/after_purchase.php:395 inc/after_purchase.php:637
+#, php-format
+msgid ""
+"A confirmation of your order will be sent to your email address at <strong>"
+"%1$s</strong>."
+msgstr ""
+
+#: inc/checkout.php:406
+msgid "Add Part of Shipping as Fee"
+msgstr ""
+
+#: inc/checkout.php:1415 inc/widgets/class-top-list-section-widget.php:137
+#: inc/widgets/class-nutrisslim-bottom-features-widget.php:101
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:347
+msgid "Add to cart"
+msgstr ""
+
+#: inc/after_purchase_original.php:393 inc/after_purchase.php:410
+msgid "Add to order"
+msgstr ""
+
+#. %1$s: Site title, %2$s: Order pay link
+#: inc/templates/emails/plain/customer-invoice.php:31
+#, php-format
+msgid ""
+"An order has been created for you on %1$s. Your invoice is below, with a "
+"link to make payment when you’re ready: %2$s"
+msgstr ""
+
+#: inc/shortcodes/landing_product_display.php:156
+#: inc/shortcodes/blogproduct.php:168
+#: inc/widgets/class-nutrisslim-landing-content-widget.php:204
+msgid "and save"
+msgstr ""
+
+#: inc/shortcodes/select_quantity.php:306
+msgid "Angebot aktualisieren ..."
+msgstr ""
+
+#: inc/templates/emails/plain/customer-note.php:34
+msgid "As a reminder, here are your order details:"
+msgstr ""
+
+#: inc/after_purchase_original.php:372 inc/after_purchase_original.php:589
+#: inc/after_purchase.php:389 inc/after_purchase.php:631
+msgid ""
+"At Nature's Finest, we've been committed to offering the best natural "
+"solutions for a healthy life for 10 years – and thanks to you, we can "
+"continue this vision!"
+msgstr ""
+
+#. Description of the plugin
+msgid "Basic adjustments for Nutrisslim sites"
+msgstr ""
+
+#: inc/product.php:35
+msgid "Before your package is shipped, you will receive a reminder via email."
+msgstr ""
+
+#: inc/product.php:27
+msgid "Benefits of a subscription"
+msgstr ""
+
+#: inc/checkout.php:11
+msgid "Bill to a company?"
+msgstr ""
+
+#: inc/after_purchase_original.php:117 inc/after_purchase.php:132
+msgid "Billing Address"
+msgstr ""
+
+#: inc/templates/emails/plain/email-addresses.php:20
+msgid "Billing address"
+msgstr ""
+
+#: inc/checkout.php:95 inc/checkout.php:120
+msgid "Billing City"
+msgstr ""
+
+#: inc/checkout.php:96 inc/checkout.php:121
+msgid "Billing City *"
+msgstr ""
+
+#: inc/bundle.php:71
+msgid "Bundle Products"
+msgstr ""
+
+#: inc/widgets/class-bottom-list-section-widget.php:99
+msgid "Buy"
+msgstr ""
+
+#: inc/shortcodes/select_quantity.php:152
+#: inc/shortcodes/select_quantity.php:188
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:356
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:409
+msgid "Buy more, save more"
+msgstr ""
+
+#: inc/templates/emails/email-order-details.php:30
+msgid "Cash on delivery"
+msgstr ""
+
+#: inc/templates/emails/trusted_reviews_invite.php:51
+msgid "Check out the rest "
+msgstr ""
+
+#: inc/checkout.php:408
+msgid "Check this box to add part of the shipping cost as a fee."
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:623
+msgid "Choose Package"
+msgstr ""
+
+#: inc/widgets/class-trusted-reviews-widget.php:915
+msgid "Choose Review Block"
+msgstr ""
+
+#: inc/checkout.php:209 inc/checkout.php:235
+msgid "City"
+msgstr ""
+
+#: inc/checkout.php:210 inc/checkout.php:236
+msgid "City *"
+msgstr ""
+
+#: inc/checkout.php:959
+msgid "COD Extra Fee"
+msgstr ""
+
+#: inc/checkout.php:15
+msgid "Company Details"
+msgstr ""
+
+#: inc/checkout.php:20
+msgid "Company Name"
+msgstr ""
+
+#: inc/after_purchase_original.php:464 inc/after_purchase_original.php:468
+#: inc/after_purchase.php:465 inc/after_purchase.php:469
+msgid "Complete order"
+msgstr ""
+
+#: inc/widgets/class-trusted-reviews-widget.php:907
+msgid "Content"
+msgstr ""
+
+#: inc/templates/emails/email-addresses.php:49
+msgid "Customer details"
+msgstr ""
+
+#: inc/templates/emails/email-order-details.php:1194
+msgid "Customer note"
+msgstr ""
+
+#: inc/templates/emails/email-order-details.php:250
+msgid "Date:"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:322
+msgid "days"
+msgstr ""
+
+#: inc/checkout.php:389
+msgid "Delivery From"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:378
+msgid "Delivery in 2 business days"
+msgstr ""
+
+#: inc/checkout.php:397
+msgid "Delivery To"
+msgstr ""
+
+#: inc/checkout.php:380
+msgid "Delivery Type"
+msgstr ""
+
+#: inc/templates/emails/email-customer-details.php:24
+#: inc/templates/emails/plain/email-customer-details.php:22
+msgid "Details zum Kunden"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:293
+msgid "Discount"
+msgstr ""
+
+#: inc/widgets/class-trusted-reviews-widget.php:40
+msgid "Display in Trusted Review Widget (manual selection)"
+msgstr ""
+
+#: inc/checkout.php:994
+msgid "Dodatkowa opłata za płatność za pobraniem"
+msgstr ""
+
+#: inc/after_purchase_original.php:357 inc/after_purchase_original.php:644
+#: inc/after_purchase.php:374 inc/after_purchase.php:686
+#: inc/templates/emails/email-order-items.php:102
+#: inc/templates/emails/email-order-items.php:112
+msgid "Download book"
+msgstr ""
+
+#: inc/templates/emails/email-downloads.php:22
+#: inc/templates/emails/plain/email-downloads.php:20
+msgid "Downloads"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:349
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:355
+#, php-format
+msgid "each <span class=\"numdays\">%s</span> days"
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:64
+msgid "Effective:"
+msgstr ""
+
+#: inc/checkout.php:44 inc/checkout.php:157
+msgid "Email address"
+msgstr ""
+
+#: inc/checkout.php:45 inc/checkout.php:158
+msgid "Email address *"
+msgstr ""
+
+#: inc/widgets/class-trusted-reviews-widget.php:933
+msgid ""
+"Enter comma-separated URL segments where the widget should be displayed."
+msgstr ""
+
+#: inc/checkout.php:417
+msgid "Enter the amount of the shipping cost to be set as a fee."
+msgstr ""
+
+#: inc/checkout.php:382
+msgid "Enter the delivery type (e.g., Standard, Priority)."
+msgstr ""
+
+#: inc/checkout.php:961
+msgid "Enter the extra fee for COD payment method (e.g., 5.00)."
+msgstr ""
+
+#: inc/checkout.php:399
+msgid "Enter the maximum number of delivery days."
+msgstr ""
+
+#: inc/checkout.php:391
+msgid "Enter the minimum number of delivery days."
+msgstr ""
+
+#: inc/prices.php:225
+msgid "Enter the special price when buying three pieces."
+msgstr ""
+
+#: inc/prices.php:211
+msgid "Enter the special price when buying two pieces."
+msgstr ""
+
+#: inc/checkout.php:374
+msgid "Enter the URL of the shipping service image."
+msgstr ""
+
+#: inc/checkout.php:21
+msgid "Enter your company name"
+msgstr ""
+
+#: inc/checkout.php:29
+msgid "Enter your VAT number"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:506
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:643
+msgid "express-delivery"
+msgstr ""
+
+#: inc/checkout.php:52 inc/checkout.php:165
+msgid "First name"
+msgstr ""
+
+#: inc/checkout.php:53 inc/checkout.php:166
+msgid "First name *"
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:88
+msgid "Food and Nutrition Engineer"
+msgstr ""
+
+#: inc/shortcodes/landing_product_display.php:119
+#: inc/shortcodes/blogproduct.php:131
+#: inc/widgets/class-short-description-widget.php:64
+#: inc/widgets/class-nutrisslim-landing-content-widget.php:183
+#, php-format
+msgid "for %s days"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:195
+#, php-format
+msgid "for <span class=\"numdays\">%s</span> days"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:398
+#, php-format
+msgid "For orders and inquiries, call <strong>%s</strong>"
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:96
+msgid ""
+"For over 13 years, Nature’s Finest has been dedicated to offering natural "
+"solutions for those who want to overcome challenges and discomforts with a "
+"healthy lifestyle. We use only 100% natural ingredients, traditionally grown "
+"without additives or unnecessary processing. Whenever possible, we use "
+"ingredients from organic farming, supported by the SI-EKO certificate. This "
+"ensures that no genetically modified organisms (GMOs) or pesticides are used."
+msgstr ""
+
+#: inc/checkout.php:859
+msgid "Free"
+msgstr ""
+
+#: inc/shortcodes/select_quantity.php:290
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:521
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:656
+msgid "Free Gift"
+msgstr ""
+
+#: inc/shortcodes/select_quantity.php:275
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:301
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:508
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:645
+msgid "Free Shipping"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:375
+#, php-format
+msgid "Free shipping on orders over %s"
+msgstr ""
+
+#: inc/widgets/class-gift-widget.php:35
+msgid "FREE<br />E-book"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:519
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:654
+msgid "free_gift"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-faq-widget.php:99
+#: inc/widgets/class-acf-faq-accordion-widget.php:345
+#: inc/widgets/class-landing-faq-accordion-widget.php:175
+msgid "Frequently Asked Questions of Our Users"
+msgstr ""
+
+#: inc/checkout.php:852
+msgid "Gratis"
+msgstr ""
+
+#. %s: Customer first name
+#: inc/templates/emails/plain/customer-completed-order.php:25
+#, php-format
+msgid "Hallo %s,"
+msgstr ""
+
+#. %s: Order date
+#: inc/templates/emails/plain/customer-invoice.php:39
+#, php-format
+msgid "Here are the details of your order placed on %s:"
+msgstr ""
+
+#. %s: Customer first name
+#. %s: Customer username
+#: inc/templates/__emails/customer-processing-order.php:34
+#: inc/templates/__emails/customer-on-hold-order.php:30
+#: inc/templates/emails/plain/customer-refunded-order.php:25
+#: inc/templates/emails/plain/customer-new-account.php:25
+#: inc/templates/emails/plain/customer-note.php:25
+#: inc/templates/emails/plain/customer-reset-password.php:25
+#: inc/templates/emails/plain/customer-processing-order.php:25
+#: inc/templates/emails/plain/customer-invoice.php:25
+#: inc/templates/emails/plain/customer-on-hold-order.php:25
+#, php-format
+msgid "Hi %s,"
+msgstr ""
+
+#: inc/checkout.php:78 inc/checkout.php:112 inc/checkout.php:183
+#: inc/checkout.php:226
+msgid "House no."
+msgstr ""
+
+#: inc/checkout.php:79 inc/checkout.php:113 inc/checkout.php:184
+#: inc/checkout.php:227
+msgid "House no. *"
+msgstr ""
+
+#: inc/after_purchase_original.php:471 inc/after_purchase_original.php:572
+#: inc/after_purchase.php:472 inc/after_purchase.php:614
+msgid "I don’t want this offer"
+msgstr ""
+
+#: inc/templates/emails/plain/customer-reset-password.php:30
+msgid ""
+"If you didn't make this request, just ignore this email. If you'd like to "
+"proceed:"
+msgstr ""
+
+#: inc/product.php:29
+msgid ""
+"If you subscribe today, <strong>additional 5% discount</strong> is applied "
+"on one time purchase price."
+msgstr ""
+
+#: inc/after_purchase_original.php:302
+msgid "Ihre Bestellung wurde abgeschlossen"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:364
+msgid "In stock, ready for delivery"
+msgstr ""
+
+#: inc/shortcodes/landing_product_tabs.php:44
+#: inc/widgets/class-nutrisslim-product-tabs-widget.php:76
+msgid "Ingredients"
+msgstr ""
+
+#: inc/submit_review.php:112
+msgid ""
+"Jako podziękowanie za Twój czas, wyślemy Ci specjalny upominek z Twoim "
+"zamówieniem!"
+msgstr ""
+
+#. %s: Order number
+#: inc/templates/__emails/customer-processing-order.php:36
+#: inc/templates/emails/plain/customer-processing-order.php:27
+#, php-format
+msgid ""
+"Just to let you know &mdash; we've received your order #%s, and it is now "
+"being processed:"
+msgstr ""
+
+#: inc/checkout.php:60 inc/checkout.php:173
+msgid "Last name"
+msgstr ""
+
+#: inc/checkout.php:61 inc/checkout.php:174
+msgid "Last name *"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:334
+msgid "Learn more about the subscription"
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:84
+msgid "M.Sc. Nutrition Engineering"
+msgstr ""
+
+#: inc/widgets/class-trusted-reviews-widget.php:920
+msgid "Manual Only"
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:76
+msgid "Meet Our Development Experts"
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:83 inc/widgets/class-foot-widget.php:84
+msgid "Meta Bizjak"
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:56
+msgid "Natural:"
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:65
+msgid ""
+"Nature offers effective solutions for many challenges we face. Our "
+"experienced development team uses and combines these exceptional substances "
+"in our products so that the body can best utilize them. Active ingredients "
+"in our products are present in proven effective amounts, not just in small "
+"and negligible percentages."
+msgstr ""
+
+#. Author of the plugin
+msgid "Nenad Radoja"
+msgstr ""
+
+#: inc/templates/emails/email-downloads.php:56
+#: inc/templates/emails/plain/email-downloads.php:40
+msgid "Never"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:372
+msgid "Normal price"
+msgstr ""
+
+#: inc/templates/emails/plain/email-order-details.php:46
+msgid "Note:"
+msgstr ""
+
+#: inc/checkout.php:273
+msgid "Notes about your order, e.g. special notes for delivery."
+msgstr ""
+
+#. %1$s: Order number. %2$s: Customer full name
+#: inc/templates/emails/plain/admin-cancelled-order.php:25
+#, php-format
+msgid ""
+"Notification to let you know &mdash; order #%1$s belonging to %2$s has been "
+"cancelled:"
+msgstr ""
+
+#. Name of the plugin
+msgid "Nutrisslim SuiteV2"
+msgstr ""
+
+#: inc/shortcodes/landing_product_tabs.php:49
+#: inc/widgets/class-nutrisslim-product-tabs-widget.php:84
+msgid "Nutritional values"
+msgstr ""
+
+#: inc/submit_review.php:124
+msgid "Oceń i zrecenzuj swój zakup"
+msgstr ""
+
+#: inc/widgets/class-trusted-reviews-widget.php:659
+msgid "Od"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:295
+msgid "One-time purchase"
+msgstr ""
+
+#: inc/templates/emails/email-order-details.php:349
+msgid "Order"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:394
+msgid "Order 1 bundle"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:395
+msgid "Order 2 bundles"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:396
+msgid "Order 3 bundles"
+msgstr ""
+
+#: inc/shortcodes/select_quantity.php:116
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:318
+msgid "ORDER FORM"
+msgstr ""
+
+#: inc/checkout.php:272
+msgid "Order notes"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-landing-sticky-add-to-cart-widget-widget.php:56
+msgid "ORDER NOW"
+msgstr ""
+
+#: inc/shortcodes/landing_product_display.php:154
+#: inc/shortcodes/blogproduct.php:166
+#: inc/widgets/class-nutrisslim-landing-order-button.php:63
+#: inc/widgets/class-nutrisslim-landing-order-button.php:79
+#: inc/widgets/class-nutrisslim-landing-content-widget.php:203
+msgid "Order now"
+msgstr ""
+
+#: inc/after_purchase_original.php:304 inc/after_purchase_original.php:376
+#: inc/after_purchase_original.php:593 inc/after_purchase.php:320
+#: inc/after_purchase.php:393 inc/after_purchase.php:635
+msgid "Order number"
+msgstr ""
+
+#: inc/templates/emails/email-order-details.php:199
+msgid "Order number:"
+msgstr ""
+
+#: inc/after_purchase_original.php:148 inc/after_purchase.php:163
+msgid "Order status changed to On hold due to COD payment method"
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:69
+msgid ""
+"Our products are tested through various user studies and trials that ensure "
+"their safety and effectiveness. We always listen carefully to the feedback "
+"from our customers and consider their opinions, criticisms, and suggestions "
+"to ensure that our products are truly tailored to their needs."
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:343
+msgid "Out of stock"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:105
+msgid "pack"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:108
+msgid "packs"
+msgstr ""
+
+#: inc/checkout.php:415
+msgid "Part of Fee"
+msgstr ""
+
+#: inc/templates/emails/customer-invoice.php:41
+msgid "Pay for this order"
+msgstr ""
+
+#. %1$s: Order number. %2$s: Customer full name.
+#: inc/templates/emails/plain/admin-failed-order.php:25
+#, php-format
+msgid "Payment for order #%1$s from %2$s has failed. The order was as follows:"
+msgstr ""
+
+#: inc/templates/emails/email-order-details.php:999
+msgid "Payment method:"
+msgstr ""
+
+#: inc/checkout.php:1064
+msgid "Payment methods"
+msgstr ""
+
+#: inc/checkout.php:138 inc/checkout.php:253
+msgid "Phone"
+msgstr ""
+
+#: inc/checkout.php:139 inc/checkout.php:254
+msgid "Phone *"
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:87 inc/widgets/class-foot-widget.php:88
+msgid "Pia Fistrovič"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:111
+msgid "piece"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:115
+msgid "pieces"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:318
+msgid "Please select your subscription period:"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:502
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:515
+msgid "plus"
+msgstr ""
+
+#: inc/checkout.php:87 inc/checkout.php:128 inc/checkout.php:200
+#: inc/checkout.php:243
+msgid "Postal code"
+msgstr ""
+
+#: inc/checkout.php:88 inc/checkout.php:129 inc/checkout.php:201
+#: inc/checkout.php:244
+msgid "Postal code *"
+msgstr ""
+
+#: inc/templates/emails/email_reviews_invite.php:130
+msgid "Povprečna ocena"
+msgstr ""
+
+#: inc/submit_review.php:146
+msgid "Powiedz nam, co myślisz"
+msgstr ""
+
+#. Register your translatable strings
+#: inc/removal.php:22
+msgid "Premium natural ingredients with proven effects"
+msgstr ""
+
+#: inc/templates/emails/email-order-details.php:450
+msgid "Price"
+msgstr ""
+
+#: inc/prices.php:209
+msgid "Price for 2 pieces"
+msgstr ""
+
+#: inc/prices.php:223
+msgid "Price for 3 pieces"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:609
+msgid "Price per product:"
+msgstr ""
+
+#: inc/after_purchase_original.php:13 inc/after_purchase_original.php:1001
+#: inc/after_purchase.php:15 inc/after_purchase.php:1104
+msgid "Pricing"
+msgstr ""
+
+#: inc/templates/emails/email-order-details.php:402
+msgid "Product"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:339
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:441
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:600
+msgid "Product Image"
+msgstr ""
+
+#: inc/after_purchase_original.php:12 inc/after_purchase_original.php:1000
+#: inc/after_purchase.php:14 inc/after_purchase.php:1103
+msgid "Product name"
+msgstr ""
+
+#: inc/templates/emails/email-order-details.php:542
+msgid "Produkty"
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:60
+msgid "Proven:"
+msgstr ""
+
+#: inc/submit_review.php:6
+msgid "Prześlij recenzję"
+msgstr ""
+
+#: inc/after_purchase_original.php:14 inc/after_purchase_original.php:1002
+#: inc/after_purchase.php:16 inc/after_purchase.php:1105
+#: inc/templates/emails/email-order-details.php:426
+msgid "Quantity"
+msgstr ""
+
+#: inc/templates/emails/trusted_reviews_invite.php:25
+#: inc/templates/emails/email_reviews_invite.php:101
+msgid "Rate Nature’s Finest and get a reward!"
+msgstr ""
+
+#: inc/templates/emails/email_reviews_invite.php:121
+msgid "RATE SHOP NOW"
+msgstr ""
+
+#: inc/templates/emails/trusted_reviews_invite.php:45
+msgid "RATE THE STORE NOW"
+msgstr ""
+
+#: inc/widgets/class-trusted-reviews-widget.php:459
+msgid "Read more"
+msgstr ""
+
+#: inc/shortcodes/landing_product_display.php:144
+#: inc/shortcodes/blogproduct.php:156
+#: inc/widgets/class-nutrisslim-landing-content-widget.php:201
+msgid "Regular price"
+msgstr ""
+
+#: inc/shortcodes/select_quantity.php:249
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:478
+#, php-format
+msgid "Regular price %s"
+msgstr ""
+
+#: inc/after_purchase_original.php:394 inc/after_purchase.php:411
+msgid "Remove from order"
+msgstr ""
+
+#: inc/after_purchase_original.php:306 inc/after_purchase.php:322
+msgid "Review of your order"
+msgstr ""
+
+#: inc/after_purchase_original.php:9 inc/after_purchase_original.php:997
+#: inc/after_purchase.php:11
+msgid "Review your orders"
+msgstr ""
+
+#: inc/widgets/class-trusted-reviews-widget.php:876
+msgid "Reviewed by"
+msgstr ""
+
+#: inc/templates/emails/trusted_reviews_invite.php:55
+msgid "reviews!"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:357
+#, php-format
+msgid "Save <span class=\"prihrana\">%s</span>"
+msgstr ""
+
+#: inc/product.php:30
+msgid "Save time - receive your shipment every month without needing to order."
+msgstr ""
+
+#: inc/product.php:26
+msgid "Save with a subscription"
+msgstr ""
+
+#: inc/gift-product-coupon.php:24
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: inc/shortcodes/select_quantity.php:242
+msgid "Select %d package(s)"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:197
+msgid "Select the desired quantity:"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:322
+msgid "Send every"
+msgstr ""
+
+#: inc/after_purchase_original.php:73 inc/after_purchase_original.php:1061
+#: inc/after_purchase.php:85 inc/after_purchase.php:1174
+msgid "Shipping"
+msgstr ""
+
+#: inc/after_purchase_original.php:113 inc/after_purchase.php:128
+msgid "Shipping Address"
+msgstr ""
+
+#: inc/templates/emails/plain/email-addresses.php:35
+msgid "Shipping address"
+msgstr ""
+
+#: inc/templates/emails/email-order-details.php:654
+msgid "Shipping amount"
+msgstr ""
+
+#: inc/after_purchase_original.php:108 inc/after_purchase.php:123
+msgid "Shipping and Billing Address"
+msgstr ""
+
+#: inc/shortcodes/select_quantity.php:146
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:304
+msgid "Shipping costs"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:634
+msgid "Shipping costs 4.90 £"
+msgstr ""
+
+#: inc/shortcodes/select_quantity.php:259
+msgid "Shipping costs £4.90"
+msgstr ""
+
+#: inc/templates/emails/email-addresses.php:176
+msgid "Shipping details"
+msgstr ""
+
+#: inc/checkout.php:372
+msgid "Shipping Image URL"
+msgstr ""
+
+#: inc/checkout.php:1070
+msgid "Show / Hide"
+msgstr ""
+
+#: inc/after_purchase_original.php:380 inc/after_purchase_original.php:596
+#: inc/after_purchase.php:397 inc/after_purchase.php:638
+msgid "Show additional offer:"
+msgstr ""
+
+#. %s: Store name
+#: inc/templates/emails/plain/customer-reset-password.php:27
+#, php-format
+msgid "Someone has requested a new password for the following account on %s:"
+msgstr ""
+
+#: inc/after_purchase_original.php:308 inc/after_purchase.php:324
+msgid "Special offer"
+msgstr ""
+
+#: inc/checkout.php:70 inc/checkout.php:104 inc/checkout.php:192
+#: inc/checkout.php:218
+msgid "Street address"
+msgstr ""
+
+#: inc/checkout.php:71 inc/checkout.php:105 inc/checkout.php:193
+#: inc/checkout.php:219
+msgid "Street address *"
+msgstr ""
+
+#: inc/widgets/class-trusted-reviews-widget.php:918
+msgid "Style 1"
+msgstr ""
+
+#: inc/widgets/class-trusted-reviews-widget.php:919
+msgid "Style 2"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:291
+msgid "Subscribe & Save"
+msgstr ""
+
+#: inc/after_purchase_original.php:71 inc/after_purchase_original.php:1059
+#: inc/after_purchase.php:82 inc/after_purchase.php:1171
+msgid "Subtotal"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:304
+#, php-format
+msgid "Switch to a subscription and save %s"
+msgstr ""
+
+#. __("Davčna številka", "naturesfinest");
+#. __( "Podatki za dostavo", "naturesfinest" ); Shipping address
+#. __( "Podatki kupca", "naturesfinest" ); Billing address
+#: inc/templates/emails/email-addresses.php:22
+msgid "Tax number"
+msgstr ""
+
+#: inc/after_purchase.php:1100
+msgid "Tekintse át a megrendeléseit"
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:68
+msgid "Tested:"
+msgstr ""
+
+#: inc/after_purchase_original.php:303 inc/after_purchase_original.php:370
+#: inc/after_purchase_original.php:588 inc/after_purchase.php:319
+#: inc/after_purchase.php:387 inc/after_purchase.php:630
+msgid "Thank you for choosing our products."
+msgstr ""
+
+#: inc/after_purchase_original.php:125 inc/after_purchase.php:140
+msgid "Thank you for your purchase. We wish you a lovely rest of the day!"
+msgstr ""
+
+#. %1$s: Site title, %2$s: Username, %3$s: My account link
+#: inc/templates/emails/plain/customer-new-account.php:27
+#, php-format
+msgid ""
+"Thanks for creating an account on %1$s. Your username is %2$s. You can "
+"access your account area to view orders, change your password, and more at: "
+"%3$s"
+msgstr ""
+
+#: inc/templates/__emails/customer-on-hold-order.php:31
+msgid ""
+"Thanks for your order. It’s on-hold until we confirm that payment has been "
+"received."
+msgstr ""
+
+#: inc/templates/emails/plain/customer-on-hold-order.php:26
+msgid ""
+"Thanks for your order. It’s on-hold until we confirm that payment has been "
+"received. In the meantime, here’s a reminder of what you ordered:"
+msgstr ""
+
+#: inc/widgets/class-trusted-reviews-widget.php:141
+#: inc/widgets/class-trusted-reviews-widget.php:439
+#: inc/widgets/class-trusted-reviews-widget.php:731
+msgid "The customer only left a rating."
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:61
+msgid ""
+"The effectiveness of our products is confirmed by studies and research that "
+"are verifiable and repeatable. All our products are tested in independent "
+"laboratories, as our goal is to provide our customers with only the highest "
+"quality and effective products for their money."
+msgstr ""
+
+#: inc/templates/emails/plain/customer-note.php:26
+msgid "The following note has been added to your order:"
+msgstr ""
+
+#: inc/checkout.php:1071
+msgid ""
+"This is an order with an obligation to pay. By submitting it, you agree to "
+"this. We are committed to protecting and respecting your privacy, so we will "
+"only use personal data to manage your order or account and provide "
+"information about the products you order from us."
+msgstr ""
+
+#. URL follows
+#: inc/templates/emails/plain/customer-new-account.php:32
+msgid "To set your password, visit the following address: "
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:250
+msgid "Top choice"
+msgstr ""
+
+#: inc/after_purchase_original.php:15 inc/after_purchase_original.php:94
+#: inc/after_purchase_original.php:1003 inc/after_purchase_original.php:1082
+#: inc/after_purchase.php:17 inc/after_purchase.php:108
+#: inc/after_purchase.php:1106 inc/after_purchase.php:1196
+#: inc/templates/emails/email-order-details.php:297
+msgid "Total"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:614
+msgid "Total:"
+msgstr ""
+
+#: inc/submit_review.php:113
+msgid "Twoje zamówienie"
+msgstr ""
+
+#: inc/widgets/class-trusted-reviews-widget.php:930
+msgid "URL Segments (comma separated)"
+msgstr ""
+
+#: inc/shortcodes/landing_product_tabs.php:39
+#: inc/widgets/class-nutrisslim-product-tabs-widget.php:68
+msgid "Usage"
+msgstr ""
+
+#. %s: Customer username
+#: inc/templates/emails/plain/customer-reset-password.php:29
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-featured-image-widget.php:167
+#, php-format
+msgid ""
+"Using %1$s - will cost you only <br /><span class=\"daily\">%2$s per day !"
+"</span>"
+msgstr ""
+
+#: inc/checkout.php:28
+msgid "VAT Number"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:331
+msgid "Verified lowest price"
+msgstr ""
+
+#: inc/shortcodes/product_rating.php:47 inc/shortcodes/product_rating.php:49
+#: inc/shortcodes/product_rating.php:51
+msgid "Verified reviews"
+msgid_plural "Verified reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: Order link.
+#: inc/templates/emails/plain/email-order-details.php:51
+#, php-format
+msgid "View order: %s"
+msgstr ""
+
+#: inc/submit_review.php:111
+msgid ""
+"W Nature's Finest zawsze staramy się dostarczać najlepsze produkty i usługi "
+"dla naszych cenionych klientów. Czy chciałbyś ocenić swój ostatni zakup?"
+msgstr ""
+
+#: inc/shortcodes/landing_product_tabs.php:28
+#: inc/widgets/class-nutrisslim-product-tabs-widget.php:120
+msgid "Warning:"
+msgstr ""
+
+#: inc/templates/emails/trusted_reviews_invite.php:29
+msgid ""
+"We always strive to improve our products and services, and we greatly value "
+"your feedback."
+msgstr ""
+
+#: inc/templates/emails/email_reviews_invite.php:105
+msgid ""
+"We are always trying to improve our products and services and we would "
+"really appreciate your feedback."
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:78
+msgid ""
+"We are proud to have only the best experts in the field of nutrition and "
+"dietary supplements on our team, who ensure the development and exceptional "
+"quality of our products. With outstanding dedication, they lead studies and "
+"research and collaborate with external laboratories, inspection bodies, and "
+"other experts to ensure the highest quality and safety of our products."
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:57
+msgid ""
+"We believe in the perfection of nature. Our commitment extends to "
+"responsible sourcing of raw materials, including sustainability, ethics, and "
+"fair business principles. We prioritize eco-friendly packaging to reduce our "
+"carbon footprint."
+msgstr ""
+
+#: inc/after_purchase_original.php:374 inc/after_purchase_original.php:591
+#: inc/after_purchase.php:391 inc/after_purchase.php:633
+msgid "We will notify you immediately once your package is ready."
+msgstr ""
+
+#: inc/after_purchase_original.php:309 inc/after_purchase.php:325
+msgid "We've further discounted selected products for a limited time!"
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:32
+msgid "Why choose Nature’s Finest?"
+msgstr ""
+
+#. %s: Site title
+#: inc/templates/emails/plain/customer-completed-order.php:27
+msgid "Wir haben die Bearbeitung Ihrer Bestellung abgeschlossen"
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:79
+msgid ""
+"With rich experience and professional knowledge of the industry, our experts "
+"strive to provide Nutrisslim customers with the most innovative products, "
+"thus maintaining its status as one of the leading companies in the field of "
+"nutrition and dietary supplements."
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:328
+msgid "You can cancel the subscription at any time."
+msgstr ""
+
+#: inc/product.php:32
+msgid ""
+"You can cancel your subscription at any time in your account panel -> orders "
+"-> subscriptions section or just via mail."
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-add-to-cart-widget.php:311
+#, php-format
+msgid ""
+"You can have the same for only %s. Convenient way to get best prices. You "
+"can change or cancel your subscription any time!"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-landing-quantity-selector.php:626
+msgid "You save"
+msgstr ""
+
+#: inc/after_purchase_original.php:127 inc/after_purchase.php:142
+msgid "Your Nature's Finest"
+msgstr ""
+
+#: inc/checkout.php:1070
+msgid "Your order"
+msgstr ""
+
+#: inc/after_purchase.php:318
+msgid "Your order has been completed"
+msgstr ""
+
+#: inc/templates/emails/customer-processing-order.php:30
+msgid ""
+"Your order has been received and is currently being processed. The order "
+"details are visible below."
+msgstr ""
+
+#: inc/templates/emails/customer-on-hold-order.php:32
+msgid ""
+"Your order is on hold until we receive confirmation of payment. The order "
+"details are shown below."
+msgstr ""
+
+#. %s: Site title
+#: inc/templates/emails/plain/customer-refunded-order.php:28
+#, php-format
+msgid ""
+"Your order on %s has been partially refunded. There are more details below "
+"for your reference:"
+msgstr ""
+
+#. %s: Site title
+#: inc/templates/emails/plain/customer-refunded-order.php:31
+#, php-format
+msgid ""
+"Your order on %s has been refunded. There are more details below for your "
+"reference:"
+msgstr ""
+
+#. %s: Customer billing full name
+#: inc/templates/emails/plain/admin-new-order.php:25
+#, php-format
+msgid "You’ve received the following order from %s:"
+msgstr ""
+
+#: inc/submit_review.php:110
+msgid "Zależy nam na Twojej opinii"
+msgstr ""
+
+#: inc/widgets/class-nutrisslim-main-review-widget.php:42
+#: inc/widgets/class-nutrisslim-reviews-widget.php:68
+#: inc/widgets/class-nutrisslim-landing-reviews-widget.php:161
+#: inc/widgets/class-nutrisslim-landing-content-widget.php:146
+msgid "Zweryfikowany użytkownik"
+msgstr ""
+
+#: inc/widgets/class-foot-widget.php:95
+msgid "»Committed to delivering the most natural products to your home«"
+msgstr ""

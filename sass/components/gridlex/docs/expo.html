@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Website using Gridlex - Just a Flexbox Grid System</title>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@webdevlint">
+    <meta name="twitter:creator" content="@webdevlint">
+    <meta name="twitter:title" content="Gridlex">
+    <meta name="twitter:description" content="Just a Flexbox Grid System">
+    <meta name="twitter:image" content="http://gridlex.devlint.fr/demo/gridlex.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="demo/normalize.css">
+    <link rel="stylesheet" href="gridlex.min.css">
+    <link rel="stylesheet" href="demo/demo.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel='stylesheet' type='text/css'>
+    <link rel="apple-touch-icon" sizes="180x180" href="/fav/apple-touch-icon.png?v=NmElr6aKnG">
+    <link rel="icon" type="image/png" sizes="32x32" href="/fav/favicon-32x32.png?v=NmElr6aKnG">
+    <link rel="icon" type="image/png" sizes="16x16" href="/fav/favicon-16x16.png?v=NmElr6aKnG">
+    <link rel="manifest" href="/fav/manifest.json?v=NmElr6aKnG">
+    <link rel="mask-icon" href="/fav/safari-pinned-tab.svg?v=NmElr6aKnG" color="#8cc84b">
+    <link rel="shortcut icon" href="/fav/favicon.ico?v=NmElr6aKnG">
+    <meta name="apple-mobile-web-app-title" content="Gridlex">
+    <meta name="application-name" content="Gridlex">
+    <meta name="msapplication-config" content="/fav/browserconfig.xml?v=NmElr6aKnG">
+    <meta name="theme-color" content="#8cc84b">
+    <style>
+        .thecard {
+            box-shadow: 0 1px 30px rgba(0,0,0,.4);
+            background-color: #fff;
+            border-radius: 4px;
+            transition: 400ms ease;
+            text-align: left;
+        }
+        .thecard:hover{
+            box-shadow: 0 10px 50px rgba(0,0,0,.6);
+        }
+        .thecard:hover .card-outmore {
+            background: #2C3E50;
+            color: #fff;
+        }
+        .thecard a{
+            color: currentColor;
+            text-decoration: none;
+        }
+        .card-img {
+            display: block;
+            max-height: 395px;
+            overflow: hidden;
+        }
+        .card-img img {
+            display: block;
+            width:100%;
+            border-radius: 4px 4px 0 0;
+        }
+
+        .card-caption {
+            position: relative;
+            padding: 5px 25px;
+        }
+        .card-caption h1 {
+            font-size: 1.8rem;
+            line-height: 1;
+        }
+
+        .card-outmore {
+            padding: 10px 25px;
+            border-radius: 0 0 4px 4px;
+            border-top: 1px solid #e0e0e0;
+            background: #efefef;
+            color: #222;
+            display: flex;
+            transition: 400ms ease;
+        }
+        .card-outmore h5 {
+            flex: 1;
+        }
+        .card-outmore i {
+            border:1px solid ;
+            padding: 1px 6px;
+            border-radius: 50%;
+        }
+
+        span.date { font-size: 10px; }
+
+        h5 { margin:0; }
+    </style>
+</head>
+<body>
+<header class="header">
+    <div><a href="index.html">
+        <h1>Gridlex</h1>
+        <p>Just a Flexbox Grid System <br>(2.7.1)</p>
+    </a></div>
+</header>
+
+<div class="demoPage grid-1">
+	<div class="col">
+        <p><strong>Wanna show us what you do with Gridlex?</strong><br> Drop me a line on <a href="https://twitter.com/webdevlint">@webdevlint!</a></p>
+        <h2>This is a showcase of beautiful and inspiring sites using Gridlex, the open source flexbox grid system:</h2>
+	</div>
+
+    <div class="col-4_sm-12">
+        <div class="thecard">
+            <a class="card-img" href="http://www.les3vallees.com/en/">
+                <picture>
+                    <source srcset='//devlint.fr/gridlex-img/les3vallees.jxr' type='image/vnd.ms-photo'>
+                    <source srcset='//devlint.fr/gridlex-img/les3vallees.webp' type='image/webp'>
+                    <img srcset='//devlint.fr/gridlex-img/les3vallees.jpg' alt='Les 3 Vallées'>
+                </picture>
+            </a>
+            <div class="card-caption">
+                <a href="http://www.les3vallees.com/en/">
+                    <h1>Les 3 Vallées</h1>
+                    <p>The world's largest ski area</p>
+                </a>
+            </div>
+            <a class="card-outmore" href="http://www.les3vallees.com/en/">
+                <h5>http://www.les3vallees.com/</h5>
+                <i class="outmore-icon fa fa-angle-right"></i>
+            </a>
+        </div>
+    </div>
+    <div class="col-4_sm-12">
+        <div class="thecard">
+            <a class="card-img" href="https://diwi.com/">
+                <picture>
+                    <source srcset='//devlint.fr/gridlex-img/diwi.jxr' type='image/vnd.ms-photo'>
+                    <source srcset='//devlint.fr/gridlex-img/diwi.webp' type='image/webp'>
+                    <img srcset='//devlint.fr/gridlex-img/diwi.jpg' alt='Diwi'>
+                </picture>
+            </a>
+            <div class="card-caption">
+                <a href="https://diwi.com/">
+                    <h1>Diwi</h1>
+                    <p>French Application of Dating Accelerator</p>
+                </a>
+            </div>
+            <a class="card-outmore" href="https://diwi.com/">
+                <h5>https://diwi.com/</h5>
+                <i class="outmore-icon fa fa-angle-right"></i>
+            </a>
+        </div>
+    </div>
+    <div class="col-4_sm-12">
+        <div class="thecard">
+            <a class="card-img" href="http://www.azureva-vacances.com/">
+                <picture>
+                    <source srcset='//devlint.fr/gridlex-img/azureva-vacances.jxr' type='image/vnd.ms-photo'>
+                    <source srcset='//devlint.fr/gridlex-img/azureva-vacances.webp' type='image/webp'>
+                    <img srcset='//devlint.fr/gridlex-img/azureva-vacances.jpg' alt='Azureva'>
+                </picture>
+            </a>
+            <div class="card-caption">
+                <a href="http://www.azureva-vacances.com/">
+                    <h1>Azureva</h1>
+                    <p>French holiday Villages</p>
+                </a>
+            </div>
+            <a class="card-outmore" href="http://www.azureva-vacances.com/">
+                <h5>http://www.azureva-vacances.com/</h5>
+                <i class="outmore-icon fa fa-angle-right"></i>
+            </a>
+        </div>
+    </div>
+    <div class="col-4_sm-12">
+        <div class="thecard">
+            <a class="card-img" href="http://www.larosiere.net/">
+                <picture>
+                    <source srcset='//devlint.fr/gridlex-img/la-rosiere.jxr' type='image/vnd.ms-photo'>
+                    <source srcset='//devlint.fr/gridlex-img/la-rosiere.webp' type='image/webp'>
+                    <img srcset='//devlint.fr/gridlex-img/la-rosiere.jpg' alt='La Rosière'>
+                </picture>
+            </a>
+            <div class="card-caption">
+                <a href="http://www.larosiere.net/">
+                    <h1>La Rosière</h1>
+                    <p> La Rosière is a French-Italian ski area</p>
+                </a>
+            </div>
+            <a class="card-outmore" href="http://www.larosiere.net">
+                <h5>http://www.larosiere.net</h5>
+                <i class="outmore-icon fa fa-angle-right"></i>
+            </a>
+        </div>
+    </div>
+    <div class="col-4_sm-12">
+        <div class="thecard">
+            <a class="card-img" href="http://www.appartcity.com">
+                <picture>
+                    <source srcset='//devlint.fr/gridlex-img/appartcity.jxr' type='image/vnd.ms-photo'>
+                    <source srcset='//devlint.fr/gridlex-img/appartcity.webp' type='image/webp'>
+                    <img srcset='//devlint.fr/gridlex-img/appartcity.jpg' alt='AppartCity'>
+                </picture>
+            </a>
+            <div class="card-caption">
+                <a href="http://www.appartcity.com">
+                    <h1>AppartCity</h1>
+                    <p>Leader of the apartment-hotels in france</p>
+                </a>
+            </div>
+            <a class="card-outmore" href="http://www.appartcity.com">
+                <h5>http://www.appartcity.com</h5>
+                <i class="outmore-icon fa fa-angle-right"></i>
+            </a>
+        </div>
+    </div>
+    <div class="col-4_sm-12">
+        <div class="thecard">
+            <a class="card-img" href="http://www.ville-manosque.fr">
+                <picture>
+                    <source srcset='//devlint.fr/gridlex-img/ville-manosque.jxr' type='image/vnd.ms-photo'>
+                    <source srcset='//devlint.fr/gridlex-img/ville-manosque.webp' type='image/webp'>
+                    <img srcset='//devlint.fr/gridlex-img/ville-manosque.jpg' alt='Manosque'>
+                </picture>
+            </a>
+            <div class="card-caption">
+                <a href="http://www.ville-manosque.fr">
+                    <h1>Manosque</h1>
+                    <p>Manosque is a town in France</p>
+                </a>
+            </div>
+            <a class="card-outmore" href="http://www.ville-manosque.fr">
+                <h5>http://www.ville-manosque.fr</h5>
+                <i class="outmore-icon fa fa-angle-right"></i>
+            </a>
+        </div>
+    </div>
+    <div class="col-4_sm-12">
+        <div class="thecard">
+            <a class="card-img" href="http://www.transaction-boulangerie.com">
+                <picture>
+                    <source srcset='//devlint.fr/gridlex-img/transaction-boulangerie.jxr' type='image/vnd.ms-photo'>
+                    <source srcset='//devlint.fr/gridlex-img/transaction-boulangerie.webp' type='image/webp'>
+                    <img srcset='//devlint.fr/gridlex-img/transaction-boulangerie.jpg' alt='Grands Moulins de Paris'>
+                </picture>
+            </a>
+            <div class="card-caption">
+                <a href="http://www.transaction-boulangerie.com">
+                    <h1>Grands Moulins de Paris</h1>
+                    <p>Commercial properties transactions in bakery</p>
+                </a>
+            </div>
+            <a class="card-outmore" href="http://www.transaction-boulangerie.com">
+                <h5>http://www.transaction-boulangerie.com/</h5>
+                <i class="outmore-icon fa fa-angle-right"></i>
+            </a>
+        </div>
+    </div>
+</div>
+<footer>
+    <p>Gridlex is made by <a href="https://twitter.com/webdevlint">@webdevlint</a></p>
+    <p>With awesome contributors :
+        <a href="https://github.com/vlsoprun">@vlsoprun</a> -
+        <a href="https://github.com/sconstantinides">@sconstantinides</a> -
+        <a href="https://github.com/TheKidCoder">@TheKidCoder</a> -
+        <a href="https://github.com/bryanwillis">@bryanwillis</a> -
+        <a href="https://github.com/ixrock">@ixrock</a></p>
+</footer>
+</body>
+</html>

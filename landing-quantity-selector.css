@@ -1,0 +1,708 @@
+#upsell-block.style-b {
+  display: flex;
+  justify-content: space-between;
+  max-width: calc(1210px - 10%);
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 0px;
+  grid-gap: 0px;
+  align-items: flex-start; /* Align items to the top */
+}
+
+#upsell-block.style-b .offer {
+  flex: 1;
+  margin: 10px;
+  width: 400px; /* Fixed width */
+  height: auto; /* Let height be determined by content */
+  min-height: 500px; /* Ensure a minimum height */
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 2px solid #ebebeb;
+  transition: all 0.3s ease;
+  position: relative;
+  justify-content: space-between; /* Space out content evenly */
+}
+
+#upsell-block.style-b .offer.active {
+  border: 2px solid #1fb25a;
+  background: #f4fbf7; /* Background color for active state */
+}
+
+#upsell-block.style-b input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#upsell-block.style-b .offer-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0;
+}
+
+#upsell-block.style-b .offer-container {
+  display: flex;
+  padding-bottom: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#upsell-block.style-b .text-center {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+#upsell-block.style-b .image-block {
+  text-align: center;
+  position: relative;
+  flex: 0 1 auto;
+  width: 100%;
+  height: 170px; /* Fixed height */
+}
+
+#upsell-block.style-b .image-block img {
+  width: 100%; /* Full width of the container */
+  height: 100%; /* Full height of the container */
+  object-fit: contain; /* Ensures the image is fully contained within the container without being cut off */
+}
+
+#upsell-block.style-b .circle-red {
+  position: absolute;
+  top: 10px !important;
+  right: 50px;
+}
+
+#upsell-block.style-b .circle-red .circle-txt-large {
+  background-color: #de1528;
+  color: white;
+  font-size: 12pt;
+  font-weight: 600;
+  height: 60px;
+  width: 60px;
+  display: block;
+  border-radius: 100px;
+  align-content: center;
+}
+
+#upsell-block.style-b .offer-block {
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  flex-grow: 1; /* Allow the block to grow and fill space */
+}
+
+#upsell-block.style-b .additional-button {
+  margin: 10px 0;
+  pointer-events: none; /* Makes the button non-clickable */
+}
+
+#upsell-block.style-b .additional-button .btn {
+  background-color: #1fb15a;
+  color: white;
+  padding: 10px 50px;
+  border-color: transparent;
+  border-radius: 40px;
+  opacity: 1;
+}
+
+#upsell-block.style-b .savings {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 10pt;
+  color: #777;
+}
+
+#upsell-block.style-b .price-per-product-text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+#upsell-block.style-b .price-per-product-text span {
+  padding-top: 10px;
+}
+
+#upsell-block.style-b .price-per-product-text bdi,
+#upsell-block.style-b .price-per-product-text bdi span {
+  font-size: 42px;
+  color: #de1528;
+  font-weight: bold;
+}
+
+#upsell-block.style-b .offer .price {
+  display: inline-flex;
+  align-content: center;
+}
+
+#upsell-block.style-b .offer .price-old {
+  color: #777;
+}
+
+#upsell-block.style-b .offer-price {
+  color: black;
+  font-weight: 800;
+  margin-right: 10px;
+}
+
+#upsell-block.style-b .landing-offer-price bdi,
+#upsell-block.style-b .landing-offer-price bdi span {
+  font-size: 14px;
+  color: black;
+  font-weight: 800;
+}
+
+#upsell-block.style-b .shipping-cost {
+  text-align: center;
+  margin-bottom: 17px;
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+#upsell-block.style-b .shipping-cost span {
+  font-weight: bold;
+}
+
+#upsell-block.style-b .mobile {
+  display: none;
+}
+
+@media (max-width: 880px) {
+  #upsell-block.style-b {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 780px) {
+  #upsell-block.style-b {
+    flex-direction: column;
+    padding: 25px 0;
+    align-items: center;
+  }
+  #upsell-block.style-b .mobile {
+    display: block;
+  }
+}
+
+#upsell-block.style-b .text-title {
+  padding: 20px;
+  width: 100%;
+  background-color: #ebebeb;
+  text-align: center;
+}
+
+#upsell-block.style-b .active .text-title {
+  color: white;
+  background-color: #1fb25a; /* Green background color */
+}
+
+#upsell-block.style-b .text-title h3 {
+  font-size: 20px;
+  line-height: 16px;
+  margin: 0px;
+  text-transform: uppercase;
+  align-content: center;
+}
+
+#upsell-block.style-b .product-details {
+  display: inline;
+  margin: 12px 0px;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+}
+
+#upsell-block.style-b .product-details .product-duration {
+  display: block; /* This ensures the duration span is on a new line */
+  margin-top: 5px; /* Optional: Adds some space above the duration text */
+  font-weight: 300;
+}
+
+#upsell-block.style-b .product-details .checkbox {
+  flex: 0;
+  margin-left: 10px;
+}
+
+#upsell-block.style-b .product-details .checkbox input[type="checkbox"] {
+  position: relative;
+  opacity: 1;
+  cursor: pointer;
+}
+
+#upsell-block.style-b
+  .product-details
+  .checkbox
+  input[type="checkbox"]
+  + label:before {
+  content: "";
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin-right: 0;
+  background-color: transparent;
+  border: 2px solid #ebebeb;
+  border-radius: 50%;
+}
+
+#upsell-block.style-b
+  .product-details
+  .checkbox
+  input[type="checkbox"]:checked
+  + label:before {
+  background-color: #1fb25a;
+  border-color: #1fb25a;
+}
+
+#upsell-block.style-b .offer_shipping {
+  display: flex;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: none;
+  border-style: none;
+  padding: 0px;
+  text-transform: none;
+  color: #1fb25a;
+  font-size: 12px;
+  line-height: normal;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  width: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#upsell-block.style-b .offer_shipping .plus {
+  margin-right: 15px;
+  margin-left: 0px;
+}
+
+#upsell-block.style-b .offer_shipping .plus img {
+  padding-bottom: 2px;
+  height: 14px;
+  bottom: 0px;
+}
+
+#upsell-block.style-b .offer-price .woocommerce-Price-amount.amount {
+  letter-spacing: 0px;
+  font-size: inherit;
+}
+
+/* ------------------- BLOCK A ---------------- */
+
+#upsell-block-a {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: calc(1210px - 10%);
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 25px 20px;
+}
+
+#upsell-block-a.disabled {
+  display: none;
+}
+
+#upsell-block-a .offer {
+  justify-content: center;
+}
+
+#upsell-block-a .offer div.offer-right img {
+  width: 140px;
+  height: 90px;
+}
+
+#upsell-block-a .offer div.offer_shipping {
+  display: flex;
+}
+
+#upsell-block-a .offer div.offer_shipping .icon img {
+  top: 5px;
+  left: 9px;
+  width: 21px;
+  height: 22px;
+  object-fit: contain;
+  position: relative;
+  margin-right: 6px;
+}
+
+#upsell-block-a .offer h2 {
+  color: #1fb25a;
+}
+
+#upsell-block-a .offer .cta {
+  background-clip: padding-box;
+  height: auto;
+  padding: 0 25px;
+  padding-right: 0;
+  border: 1px solid transparent;
+  border-radius: 18.7px;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+#upsell-block-a .offer .cta.hidden {
+  display: none;
+}
+
+#upsell-block-a .offer .bottom {
+  display: table;
+  width: 100%;
+  border: 2px solid #fff;
+  border-top: 0;
+  height: calc(100% - 38px);
+}
+
+#upsell-block-a .offer.active {
+  background: rgba(31, 178, 90, 0.05);
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#upsell-block-a .offer.active .text-center,
+#upsell-block-a .offer.active .bottom {
+  border: 2px solid #1fb25a;
+}
+
+#upsell-block.style-a .circle-red {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+}
+
+#upsell-block.style-a .circle-red .circle-txt-large {
+  background-color: #de1528;
+  color: white;
+  font-size: 12pt;
+  font-weight: 600;
+  height: 50px;
+  width: 50px;
+  display: block;
+  border-radius: 100px;
+  align-content: center;
+}
+
+#upsell-block-a .offer.active .bottom {
+  border-top: 0;
+}
+
+#upsell-block-a .offer:hover {
+  background: rgba(31, 178, 90, 0.05);
+}
+
+#upsell-block-a .offer:hover .text-center {
+  background: #1fb25a;
+  color: #fff;
+}
+
+#upsell-block-a .offer:hover .text-center,
+#upsell-block-a .offer:hover .bottom {
+  border: 2px solid #1fb25a;
+}
+
+#upsell-block-a .offer:hover .bottom {
+  border-top: 0;
+}
+
+#upsell-block-a .active-card {
+  background: #1fb25a !important;
+}
+
+#upsell-block-a .product-display .pricing span.savings,
+#upsell-block-a .product-display .pricing span.regular_price,
+#upsell-block-a .product-display .pricing span.main_price {
+  display: inline;
+}
+
+#upsell-block-a .banner-colored .cost_of_use {
+  display: inline;
+}
+
+#upsell-block-a #offer-loader {
+  display: none;
+  background: #fff;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 999999;
+  top: 0;
+  left: 0;
+}
+
+#upsell-block-a #offer-loader.active {
+  display: block;
+}
+
+#upsell-block-a #offer-loader h2 {
+  color: #1fb25a;
+  text-align: center;
+}
+
+#upsell-block-a #offer-loader img {
+  display: inline-block;
+}
+
+#upsell-block-a #offer-loader .preloader-content {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#upsell-block-a .offer_shipping {
+  cursor: pointer;
+  border: 1px solid #1fb25a;
+  border-style: dashed;
+  padding: 0px;
+  text-transform: uppercase;
+  color: #1fb25a;
+  font-size: 16px;
+  line-height: 36px;
+  font-family: "Fira Sans Condensed", sans-serif;
+  text-align: center;
+  width: calc(100% - 40px);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 17px;
+}
+
+#upsell-block-a .offer_shipping .icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+#upsell-block-a .offer-right {
+  position: relative;
+  flex: 1;
+  padding: 0.5rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  min-width: 80px;
+}
+
+#upsell-block-a .offer-right img {
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: bottom;
+  object-position: bottom;
+}
+
+#upsell-block-a .offer-left {
+  flex: 1;
+}
+
+#upsell-block-a .upsell-card {
+  display: flex;
+  margin-top: 17px;
+}
+
+#upsell-block-a .upsell-card .offer-right {
+  order: 2;
+}
+
+#upsell-block-a .upsell-card .offer-left {
+  order: 1;
+}
+
+#upsell-block-a .upsell-card .offer-left .price .price-old {
+  padding-right: 0;
+}
+
+#upsell-block-a .offer {
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.16);
+  max-width: 338px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: -moz-fit-content;
+  height: fit-content;
+  cursor: pointer;
+}
+
+#upsell-block-a .offer .text-center {
+  cursor: pointer;
+  display: block;
+  background: #ebebeb;
+  color: #282828;
+  border: 2px solid #ebebeb;
+  padding: 10px;
+}
+
+#upsell-block-a .offer .text-center.active {
+  background: #1fb25a;
+  color: #fff;
+  padding: 10px;
+}
+
+#upsell-block-a .offer-price .woocommerce-Price-amount.amount,
+#upsell-block-a .offer-price .woocommerce-Price-currencySymbol {
+  color: #de1528;
+  font-family: "Fira Sans Condensed", sans-serif !important;
+  font-weight: 700;
+  letter-spacing: -1px;
+  font-size: 40px;
+}
+
+#upsell-block-a label {
+  position: relative;
+  margin-left: 10px;
+}
+
+#upsell-block-a label h3 {
+  padding-left: 17px;
+  cursor: pointer;
+}
+
+#upsell-block-a input:not(:checked) + label:before {
+  content: "";
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: -7px;
+  margin-left: -38px;
+  background: url("unchecked.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  left: 0;
+}
+
+#upsell-block-a input:checked + label:before {
+  content: "";
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: -7px;
+  margin-left: -38px;
+  background: url("check_green.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  left: 0;
+}
+
+#upsell-block-a .plus {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  float: left;
+  margin-left: 15px;
+}
+
+#upsell-block-a .plus img {
+  height: 14px;
+  width: auto;
+  position: relative;
+  bottom: -1px;
+}
+
+#upsell-block-a h3 {
+  font-size: 16px;
+  line-height: 16px;
+  margin: 0px;
+}
+
+#upsell-block-a .shipping-cost {
+  text-align: center;
+  margin-bottom: 17px;
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+#upsell-block-a .shipping-cost span {
+  font-weight: bold;
+}
+
+#upsell-block-a .mobile {
+  display: none;
+}
+
+@media (max-width: 880px) {
+  #upsell-block-a {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 780px) {
+  #upsell-block-a {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    padding: 25px 0;
+  }
+  #upsell-block-a .mobile {
+    display: block;
+  }
+}
+
+.product-title-offer {
+  color: black;
+  line-height: normal;
+}
+
+.slider-flex {
+  justify-content: center !important;
+}
+
+/* Whole container alignment */
+.row.mx-0 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Countdown progress bar */
+.countdown-progress-bar {
+  position: relative;
+  width: 100%; /* Ensure it fills the available space */
+  max-width: 300px !important; /* You can adjust this to your preference */
+  height: 10px;
+  border-radius: 5px;
+  background-color: #ebebeb; /* Default background color */
+  overflow: hidden;
+}
+
+/* Progress fill (the 30%) */
+.countdown-progress-bar::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30%; /* Progress percentage */
+  height: 100%;
+  border-radius: 5px;
+  background-color: #de1528; /* Fill color */
+  z-index: 10; /* Ensure it's on top of the background */
+}
+
+/* Background (not necessary with .countdown-progress-bar having a background-color) */
+.countdown-progress-bar::after {
+  content: "";
+  display: none; /* Not needed since the background is already set on the container */
+}
+
+.gray-gif {
+  filter: grayscale(100%) brightness(0.5); /* Makes the content of the GIF grayscale */
+}

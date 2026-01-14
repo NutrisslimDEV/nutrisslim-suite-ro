@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build artifacts
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# Environment
+.env
+.env.local
+
+# WordPress
+*.bak
+*.swp
+
+# Compiled CSS (keep source SCSS)
+# style.css - keep this as it's the main compiled stylesheet

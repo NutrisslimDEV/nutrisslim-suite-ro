@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Fira Sans Condensed';
+    src: url('fonts/firasanscondensed-bold-webfont.eot'); /* IE9 Compat Modes */
+    src: url('fonts/firasanscondensed-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/firasanscondensed-bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/firasanscondensed-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/firasanscondensed-bold-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/firasanscondensed-bold-webfont.svg#FiraSansCondensed') format('svg'); /* Legacy iOS */
+    font-weight: 700; /* Bold */
+    font-style: normal; /* Normal style (not italic) */
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;	
+}
+.badgeHolder div.elementor-shortcode {
+    position:relative;
+}

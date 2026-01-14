@@ -1,0 +1,35 @@
+.product-template-default .elementor-element>.e-con-inner {
+    padding-block-start: 0px !important;
+    padding-block-end: 0px !important;
+}
+.product-template-default .elementor-element>.e-con-inner > div {
+    margin-bottom:40px;
+}
+div.elementor.type-product {
+    margin-top:100px;
+}
+.product-main div.e-con-inner div.order-box {
+    width: 420px; 
+}
+.product-main div.e-con-inner div.content-holder {
+    width: calc( (100% - 420px) / 100 * 55);
+}
+.product-main div.e-con-inner div.image-holder {
+    width: calc( (100% - 420px) / 100 * 45);
+    text-align:center;
+}
+.product-main div.e-con-inner div.image-holder img {
+    display:inline-block;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .product-main div.e-con-inner div.content-holder {
+        width: 55%;
+    }
+    .product-main div.e-con-inner div.image-holder {
+        width: 45%;
+        text-align:center;
+    }
+}
+@media (max-width: 767px) {
+    /* CSS styles go here */
+}

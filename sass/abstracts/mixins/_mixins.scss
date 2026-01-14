@@ -1,0 +1,254 @@
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Column width with margin
+@mixin column-width($numberColumns: 3) {
+	width: map-get($columns, $numberColumns) - ( ( $columns__margin * ( $numberColumns - 1 ) ) / $numberColumns );
+}
+
+@mixin pseudo($width, $height, $src) {
+	content:"";
+	display:inline-block;
+	position:absolute;
+	width:#{$width};
+	height:#{$height};
+	background-image:url(#{$src});
+	@include containbgimg();	
+}
+
+@mixin calc($property, $expression) {
+	#{$property}: -moz-calc(#{$expression});
+	#{$property}: -webkit-calc(#{$expression});
+	#{$property}: calc(#{$expression});
+}
+
+@mixin fullbgimg() {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+@mixin containbgimg() {
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	background-position:center center;
+	background-repeat: no-repeat;		
+	background-repeat:no-repeat;
+}
+
+@mixin respond-to($breakpoint) {
+	@if $breakpoint == "segamegasmall" {
+		@media (max-width: 336px) {
+			@content;
+		}
+	}	
+	@if $breakpoint == "megasmall" {
+		@media (max-width: 420px) {
+			@content;
+		}
+	}
+	@if $breakpoint == "extrasmall" {
+		@media (max-width: 480px) {
+			@content;
+		}
+	}
+	@else if $breakpoint == "midsmall" {
+		@media (max-width: 576px) {
+			@content;
+		}
+	}
+
+	@else if $breakpoint == "small" {
+		@media (max-width: 767px) {
+			@content;
+		}
+	}
+
+	@else if $breakpoint == "medium" {
+		@media (max-width: 992px) {
+			@content;
+		}
+	}
+
+	@else if $breakpoint == "large" {
+		@media (max-width: 1200px) {
+			@content;
+		}
+	}
+	@else if $breakpoint == "extralarge" {
+		@media (min-width: 1200px) {
+			@content;
+		}
+	}
+	@else if $breakpoint == "desktop" {
+		@media (min-width: 992px) {
+			@content;
+		}
+	}
+	@else if $breakpoint == "laptop" {
+		@media (max-width: 1380px) {
+			@content;
+		}
+	}  
+	@else if $breakpoint == "smalldesktop" {
+		@media (min-width:992px) and (max-width: 1200px) {
+			@content;
+		}
+	}        
+}
+
+@function calculateRem($size) {
+	$remSize: calc($size / 16px);
+	@return $remSize * 1rem;
+}
+@mixin fontSize($size) {
+  font-size: $size; //Fallback in px
+  font-size: calculateRem($size);
+}
+
+@mixin proportional-image($width, $height, $attributes: null) {
+    // Calculate aspect ratio as a percentage
+    $aspect-ratio: calc($height / $width) * 100%;
+
+    // Base styles for the image container
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: $aspect-ratio;
+    overflow: hidden;
+
+    // Styles for the actual image
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    // Apply additional attributes if provided
+    @if $attributes != null {
+        @each $key, $value in $attributes {
+            #{$key}: $value;
+        }
+    }
+}
+@mixin border-radius($top-left, $top-right: $top-left, $bottom-right: $top-left, $bottom-left: $top-right) {
+	border-top-left-radius: $top-left;
+	border-top-right-radius: $top-right;
+	border-bottom-right-radius: $bottom-right;
+	border-bottom-left-radius: $bottom-left;
+}
+@mixin box-shadow($shadows) {
+    box-shadow: $shadows;
+    -webkit-box-shadow: $shadows;
+    -moz-box-shadow: $shadows;
+}
+@mixin box-sizing($box-model) {
+    box-sizing: $box-model;
+    -webkit-box-sizing: $box-model;
+    -moz-box-sizing: $box-model;
+}
+@mixin linear-gradient($direction, $start-color, $end-color) {
+    background: $start-color; /* Old browsers */
+    background: -moz-linear-gradient($direction, $start-color 0%, $end-color 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient($direction, $start-color 0%, $end-color 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient($direction, $start-color 0%, $end-color 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+@mixin transition($properties...) {
+    -webkit-transition: $properties;
+    -moz-transition: $properties;
+    -ms-transition: $properties;
+    -o-transition: $properties;
+    transition: $properties;
+}
+@mixin transform($transforms) {
+    -webkit-transform: $transforms;
+    -moz-transform: $transforms;
+    -ms-transform: $transforms;
+    -o-transform: $transforms;
+    transform: $transforms;
+}
+@mixin animation($animation-name) {
+    -webkit-animation: $animation-name;
+    -moz-animation: $animation-name;
+    -o-animation: $animation-name;
+    animation: $animation-name;
+}
+@mixin flexbox {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+  
+  @mixin flex($values) {
+    -webkit-box-flex: $values;
+    -moz-box-flex: $values;
+    -webkit-flex: $values;
+    -ms-flex: $values;
+    flex: $values;
+}
+@mixin opacity($opacity) {
+    opacity: $opacity;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" + ($opacity * 100) + ")";
+    filter: alpha(opacity=($opacity * 100));
+}
+@mixin input-placeholder {
+    &::placeholder { // Standard
+        @content;
+    }
+    &:-ms-input-placeholder { // Internet Explorer 10-11
+        @content;
+    }
+    &::-ms-input-placeholder { // Microsoft Edge
+        @content;
+    }
+    &::-webkit-input-placeholder { // WebKit browsers
+        @content;
+    }
+    &::-moz-placeholder { // Firefox 19+
+        @content;
+        opacity: 1; // Required for Firefox 19+
+    }
+    &:-moz-placeholder { // Firefox 18-
+        @content;
+        opacity: 1; // Required for Firefox 18-
+    }
+}
+@mixin centered () {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;	
+}
+
+@mixin vcentered () {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;	
+}
+  
