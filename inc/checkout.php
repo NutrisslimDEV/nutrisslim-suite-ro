@@ -1133,19 +1133,26 @@ function add_custom_shipping_cost_to_order($item, $package_key, $package, $order
     $available_methods = isset($package['rates']) ? $package['rates'] : [];
 
     foreach ($available_methods as $method_id => $method) {
-        
-        // Ensure the cost is set correctly
-        if (empty($method->cost)) {
-            $instance_settings = get_option('woocommerce_flat_rate_' . $method->instance_id . '_settings');
-            $method_cost = isset($instance_settings['cost']) ? $instance_settings['cost'] : '0';
-
-            // Parse cost with the correct decimal separator
-            $method_cost = str_replace(',', '.', $method_cost);
-            $method->cost = floatval($method_cost);
-        }
 
         if ($method_id === $current_method) {
-            $item->set_total($method->cost);
+            // Check if this is a free shipping method
+            if (strpos($method_id, 'free_shipping') !== false) {
+                // Free shipping - set total to 0
+                $item->set_total(0);
+            } else {
+                // Paid shipping - ensure the cost is set correctly
+                if (empty($method->cost)) {
+                    $instance_settings = get_option('woocommerce_flat_rate_' . $method->instance_id . '_settings');
+                    $method_cost = isset($instance_settings['cost']) ? $instance_settings['cost'] : '0';
+
+                    // Parse cost with the correct decimal separator
+                    $method_cost = str_replace(',', '.', $method_cost);
+                    $method->cost = floatval($method_cost);
+                }
+
+                $item->set_total($method->cost);
+            }
+            break; // Exit loop once current method is processed
         }
     }
 }
@@ -1435,17 +1442,24 @@ function custom_adjust_shipping_cost_and_fee($cart) {
 
     // Get custom shipping cost and fee from session
     $custom_shipping_fee = WC()->session->get('custom_shipping_fee');
-    $custom_shipping_fee_label = WC()->session->get('custom_shipping_fee_label');    
+    $custom_shipping_fee_label = WC()->session->get('custom_shipping_fee_label');
     $custom_shipping_cost = WC()->session->get('custom_shipping_cost');
 
-    // Adjust shipping cost
-    $packages = WC()->shipping()->get_packages(); 
+    // Get chosen shipping method
+    $chosen_methods = WC()->session->get('chosen_shipping_methods');
+    $current_method = !empty($chosen_methods[0]) ? $chosen_methods[0] : '';
 
-    foreach ($packages as $package_key => $package) {        
-        foreach ($package['rates'] as $rate) {       
-            $rate->set_cost($custom_shipping_cost);
-            // Update the package rates
-            WC()->shipping()->packages[$package_key]['rates'][$rate->get_id()] = $rate;
+    // Adjust shipping cost
+    $packages = WC()->shipping()->get_packages();
+
+    foreach ($packages as $package_key => $package) {
+        foreach ($package['rates'] as $rate) {
+            // Only modify the chosen shipping method, and skip free shipping
+            if ($rate->get_id() === $current_method && strpos($rate->get_id(), 'free_shipping') === false) {
+                $rate->set_cost($custom_shipping_cost);
+                // Update the package rates
+                WC()->shipping()->packages[$package_key]['rates'][$rate->get_id()] = $rate;
+            }
         }
     }
 
