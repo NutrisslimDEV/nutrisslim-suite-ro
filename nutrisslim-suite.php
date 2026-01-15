@@ -29,6 +29,7 @@ require plugin_dir_path(__FILE__) . 'inc/removal.php';
 require plugin_dir_path(__FILE__) . 'inc/submit_review.php';
 
 require plugin_dir_path(__FILE__) . 'inc/gift-product-coupon.php';
+require plugin_dir_path(__FILE__) . 'inc/facebook-attribution.php';
 
 // Conditionally include dashboard.php only in the admin dashboard
 if (is_admin()) {
