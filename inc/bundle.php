@@ -218,52 +218,53 @@ function add_subproducts_to_cart($cart_item_key, $product_id, $quantity, $variat
                     );                                        
                 }
                 */
-                // if ( (($quantity == 1) && ($key == 0) && ($num_of_subproducts > 1)) ) {
-                if ( (($qtytoadd > 0) && ($key == 0)) ) {
-                    // Adjust the quantity to add by subtracting 1
-                    $qtytoadd = 0;
-                    $qtyset = $quantity * $subproduct['quantity'];                   
+                // FIX: For the FIRST subproduct, add as "adjusted_item" with proper flags
+                // For other subproducts, add normally with correct quantities
+                // This eliminates the quantity 0 bug that caused WooCommerce to filter out items
+                if ($key == 0) {
+                    // First subproduct: add with both adjustment flags
+                    $qtyset = $quantity * $subproduct['quantity'];
 
-                    // Prepare adjusted subproduct cart item data
-                    $subproduct_cart_item_data = array(
-                        'nutrisslim_parent_id' => $product_id,  // Custom meta to identify the parent product
-                        'nutrisslim_parent_key' => $cart_item_key,  // Store the cart item key of the parent
-                        'item_to_adjust' => true // Mark this item for adjustment
-                    );                    
-                    
-                    // Prepare additional cart item data for the adjusted item
-                    $subproduct_cart_item_data_adjastment = array(
-                        'nutrisslim_parent_id' => $product_id,  // Custom meta to identify the parent product
-                        'nutrisslim_parent_key' => $cart_item_key,  // Store the cart item key of the parent
-                        'adjusted_item' => true, // Mark this item as adjusted
-                        'single_subscribe_item_to_adjust' => true // Mark this item for adjustment                    
+                    $subproduct_cart_item_data_adjusted = array(
+                        'nutrisslim_parent_id' => $product_id,
+                        'nutrisslim_parent_key' => $cart_item_key,
+                        'adjusted_item' => true,
+                        'single_subscribe_item_to_adjust' => true
                     );
 
-                    // If the parent item has a subscription, add subscription data to the adjusted items
-                    //if ($cart_item_data['subscription'] && $cart_item_data['subscription'] != 0) {
-					if (isset($cart_item_data['subscription']) && $cart_item_data['subscription'] != 0) {
-                        $subproduct_cart_item_data['subitem_subscription'] = $cart_item_data['subscription'];
-                        $subproduct_cart_item_data_adjastment['subitem_subscription'] = $cart_item_data['subscription'];
+                    if (isset($cart_item_data['subscription']) && $cart_item_data['subscription'] != 0) {
+                        $subproduct_cart_item_data_adjusted['subitem_subscription'] = $cart_item_data['subscription'];
                     }
 
-                    // Add the adjusted subproduct to the cart with quantity 1
+                    // Add ONLY ONCE with correct quantity
                     WC()->cart->add_to_cart(
-                        $subproduct['products'], 
-                        $qtyset, 
-                        0, 
-                        array(), 
-                        $subproduct_cart_item_data_adjastment
-                    ); 
-                }
+                        $subproduct['products'],
+                        $qtyset,
+                        0,
+                        array(),
+                        $subproduct_cart_item_data_adjusted
+                    );
+                } else {
+                    // For other subproducts, add normally
+                    $qtytoadd = $quantity * $subproduct['quantity'];
 
-                // Add the main subproduct to the cart with the calculated quantity
-                WC()->cart->add_to_cart(
-                    $subproduct['products'], 
-                    $qtytoadd, 
-                    0, 
-                    array(), 
-                    $subproduct_cart_item_data
-                );
+                    $subproduct_cart_item_data = array(
+                        'nutrisslim_parent_id' => $product_id,
+                        'nutrisslim_parent_key' => $cart_item_key
+                    );
+
+                    if (isset($cart_item_data['subscription']) && $cart_item_data['subscription'] != 0) {
+                        $subproduct_cart_item_data['subitem_subscription'] = $cart_item_data['subscription'];
+                    }
+
+                    WC()->cart->add_to_cart(
+                        $subproduct['products'],
+                        $qtytoadd,
+                        0,
+                        array(),
+                        $subproduct_cart_item_data
+                    );
+                }
 
                 // Add the new product with price 1 (this line is commented out)
                 // WC()->cart->add_to_cart(570, 1);               
